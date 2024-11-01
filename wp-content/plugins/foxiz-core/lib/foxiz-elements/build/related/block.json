@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "foxiz/related",
+  "version": "1.0",
+  "title": "Related Posts - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "keywords": [
+    "foxiz",
+    "ruby",
+    "related",
+    "post",
+    "list"
+  ],
+  "description": "Show a list of related posts.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "More Read"
+    },
+    "heading_tag": {
+      "type": "string",
+      "default": "h4"
+    },
+    "total": {
+      "type": "number",
+      "default": 5
+    },
+    "layout": {
+      "type": "string",
+      "default": "1"
+    },
+    "ids": {
+      "type": "string",
+      "default": ""
+    },
+    "where": {
+      "type": "string",
+      "default": "all"
+    },
+    "order": {
+      "type": "string",
+      "default": "relevance"
+    }
+  }
+}

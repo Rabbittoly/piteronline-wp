@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'bbp-rbi';
+    src: url('fonts/bbp-rbi.ttf?iumdbs') format('truetype'),
+    url('fonts/bbp-rbi.woff?iumdbs') format('woff'),
+    url('fonts/bbp-rbi.svg?iumdbs#bbp-rbi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='bbp-rbi-'], [class*=' bbp-rbi-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'bbp-rbi' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    speak: never;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bbp-rbi-search:before {
+    content: '\e91f';
+}
+
+.bbp-rbi-alert:before {
+    content: '\e940';
+}
+
+.bbp-rbi-arrow-down:before {
+    content: '\e914';
+}
+
+.bbp-rbi-arrow-left:before {
+    content: '\e915';
+}
+
+.bbp-rbi-arrow-right:before {
+    content: '\e916';
+}
+
+.bbp-rbi-arrow-up:before {
+    content: '\e917';
+}
+
+.bbp-rbi-bell:before {
+    content: '\e918';
+}
+
+.bbp-rbi-bell-fill:before {
+    content: '\e919';
+}
+
+.bbp-rbi-blocked:before {
+    content: '\e935';
+}
+
+.bbp-rbi-book:before {
+    content: '\e900';
+}
+
+.bbp-rbi-bookmark:before {
+    content: '\e90b';
+}
+
+.bbp-rbi-bookmark-fill:before {
+    content: '\e90c';
+}
+
+.bbp-rbi-bookmark-slash:before {
+    content: '\e91a';
+}
+
+.bbp-rbi-bug:before {
+    content: '\e920';
+}
+
+.bbp-rbi-check:before {
+    content: '\e92b';
+}
+
+.bbp-rbi-checkbox:before {
+    content: '\e921';
+}
+
+.bbp-rbi-conduct:before {
+    content: '\e92d';
+}
+
+.bbp-rbi-code-review:before {
+    content: '\e922';
+}
+
+.bbp-rbi-comment:before {
+    content: '\e90d';
+}
+
+.bbp-rbi-discussion:before {
+    content: '\e923';
+}
+
+.bbp-rbi-copy:before {
+    content: '\e92c';
+}
+
+.bbp-rbi-credit-card:before {
+    content: '\e913';
+}
+
+.bbp-rbi-device-mobile:before {
+    content: '\e925';
+}
+
+.bbp-rbi-dot:before {
+    content: '\e936';
+}
+
+.bbp-rbi-dot-fill:before {
+    content: '\e938';
+}
+
+.bbp-rbi-eye:before {
+    content: '\e928';
+}
+
+.bbp-rbi-user:before {
+    content: '\e90e';
+}
+
+.bbp-rbi-file:before {
+    content: '\e929';
+}
+
+.bbp-rbi-file-badge:before {
+    content: '\e92a';
+}
+
+.bbp-rbi-flame:before {
+    content: '\e939';
+}
+
+.bbp-rbi-graph:before {
+    content: '\e93a';
+}
+
+.bbp-rbi-hourglass:before {
+    content: '\e926';
+}
+
+.bbp-rbi-info:before {
+    content: '\e941';
+}
+
+.bbp-rbi-light-bulb:before {
+    content: '\e93b';
+}
+
+.bbp-rbi-link:before {
+    content: '\e912';
+}
+
+.bbp-rbi-lock:before {
+    content: '\e901';
+}
+
+.bbp-rbi-megaphone:before {
+    content: '\e902';
+}
+
+.bbp-rbi-moon:before {
+    content: '\e93c';
+}
+
+.bbp-rbi-mortar:before {
+    content: '\e92e';
+}
+
+.bbp-rbi-paint:before {
+    content: '\e903';
+}
+
+.bbp-rbi-paper-airplane:before {
+    content: '\e91b';
+}
+
+.bbp-rbi-paperclip:before {
+    content: '\e904';
+}
+
+.bbp-rbi-people:before {
+    content: '\e924';
+}
+
+.bbp-rbi-person:before {
+    content: '\e934';
+}
+
+.bbp-rbi-pin:before {
+    content: '\e91e';
+}
+
+.bbp-rbi-project:before {
+    content: '\e93d';
+}
+
+.bbp-rbi-pulse:before {
+    content: '\e93e';
+}
+
+.bbp-rbi-reply:before {
+    content: '\e909';
+}
+
+.bbp-rbi-repo-locked:before {
+    content: '\e927';
+}
+
+.bbp-rbi-rss:before {
+    content: '\e92f';
+}
+
+.bbp-rbi-ruby:before {
+    content: '\e930';
+}
+
+.bbp-rbi-shield-check:before {
+    content: '\e91c';
+}
+
+.bbp-rbi-shield-lock:before {
+    content: '\e905';
+}
+
+.bbp-rbi-shield-slash:before {
+    content: '\e93f';
+}
+
+.bbp-rbi-sign-out:before {
+    content: '\e931';
+}
+
+.bbp-rbi-star:before {
+    content: '\e90f';
+}
+
+.bbp-rbi-star-fill:before {
+    content: '\e910';
+}
+
+.bbp-rbi-tag:before {
+    content: '\e937';
+}
+
+.bbp-rbi-thumbs-down:before {
+    content: '\e906';
+}
+
+.bbp-rbi-thumbs-up:before {
+    content: '\e907';
+}
+
+.bbp-rbi-unlock:before {
+    content: '\e908';
+}
+
+.bbp-rbi-verified:before {
+    content: '\e932';
+}
+
+.bbp-rbi-versions:before {
+    content: '\e911';
+}
+
+.bbp-rbi-x:before {
+    content: '\e91d';
+}
+
+.bbp-rbi-zap:before {
+    content: '\e933';
+}
+
+.bbp-rbi-reply-fill:before {
+    content: '\e90a';
+}

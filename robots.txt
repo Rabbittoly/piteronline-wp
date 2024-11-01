@@ -1,0 +1,55 @@
+# Разрешение для ботов социальных сетей и поисковых систем
+User-agent: Facebot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Общие ограничения для всех ботов
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /trackback/
+Disallow: /feed/
+Disallow: /comments/
+Disallow: */trackback/
+Disallow: */feed/
+Disallow: */comments/
+Disallow: /*.php$
+Allow: /wp-content/uploads/
+
+# Разрешение для изображений Googlebot
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
+Disallow: /wp-admin/
+
+# Разрешение для Яндекс-бота
+User-agent: Yandex
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Allow: /wp-content/uploads/
+
+# Sitemap и хост
+Sitemap: https://piteronline.tv/sitemap_index.xml
+Host: https://piteronline.tv

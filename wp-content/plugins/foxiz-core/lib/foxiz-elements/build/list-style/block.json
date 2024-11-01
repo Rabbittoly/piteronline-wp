@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/list-style",
+  "version": "0.1.0",
+  "title": "List Style - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "Show an icon before each list item for the unordered list (ul) in post content",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "list",
+    "style",
+    "styling",
+    "listing"
+  ],
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": ""
+    },
+    "emoji": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileSize": {
+      "type": "string",
+      "default": ""
+    },
+    "color": {
+      "type": "string",
+      "default": "#00D084"
+    },
+    "darkColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "spacing": {
+      "type": "number"
+    }
+  }
+}

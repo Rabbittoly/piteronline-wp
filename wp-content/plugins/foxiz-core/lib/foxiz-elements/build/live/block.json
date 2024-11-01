@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/live",
+  "version": "0.1.0",
+  "title": "Live Blog - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "Display an event for the live blog post.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "live",
+    "event"
+  ],
+  "attributes": {
+    "liveDate": {
+      "type": "string",
+      "default": ""
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderWidth": {
+      "type": "object",
+      "default": {
+        "top": null,
+        "right": null,
+        "bottom": null,
+        "left": null
+      }
+    },
+    "borderRadius": {
+      "type": "number"
+    },
+    "background": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopPadding": {
+      "type": "object",
+      "default": {
+        "top": "30px",
+        "right": "30px",
+        "bottom": "30px",
+        "left": "30px"
+      }
+    },
+    "tabletPadding": {
+      "type": "object",
+      "default": {
+        "top": "25px",
+        "right": "25px",
+        "bottom": "25px",
+        "left": "25px"
+      }
+    },
+    "mobilePadding": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    }
+  }
+}

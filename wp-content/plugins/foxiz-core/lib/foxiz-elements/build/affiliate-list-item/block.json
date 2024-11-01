@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/affiliate-list-item",
+  "description": "Add a marketplace for the Affiliate List block.",
+  "version": "0.1.0",
+  "parent": [
+    "foxiz-elements/affiliate-list"
+  ],
+  "title": "Affiliate List Item",
+  "category": "widgets",
+  "icon": "ellipsis",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "default": ""
+    },
+    "logoURL": {
+      "type": "string",
+      "default": ""
+    },
+    "logoAlt": {
+      "type": "string",
+      "default": 0
+    },
+    "logoH": {
+      "type": "number",
+      "default": 0
+    },
+    "logoW": {
+      "type": "number",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "price": {
+      "type": "string",
+      "default": "$99"
+    },
+    "salePrice": {
+      "type": "string",
+      "default": ""
+    },
+    "link": {
+      "type": "string",
+      "default": "#"
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "See It"
+    },
+    "isInternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "isSponsored": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

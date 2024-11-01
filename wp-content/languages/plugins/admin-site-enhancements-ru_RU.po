@@ -1,0 +1,1931 @@
+# Translation of Plugins - Admin and Site Enhancements (ASE) - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Admin and Site Enhancements (ASE) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-09 05:17:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Admin and Site Enhancements (ASE) - Stable (latest release)\n"
+"X-Language: ru_RU\n"
+"X-Source-Language: C\n"
+
+#: classes/class-settings-sections-fields.php:965
+msgid "Remove date column"
+msgstr "Удалить столбец даты"
+
+#: classes/class-settings-sections-fields.php:893
+msgid "Show last modified column"
+msgstr "Показать столбец последнего изменения"
+
+#: classes/class-enhance-list-tables.php:313
+msgid "File Size"
+msgstr "Размер файла"
+
+#: classes/class-enhance-list-tables.php:179
+msgid "Last Modified"
+msgstr "Последнее изменение"
+
+#: classes/class-enhance-list-tables.php:117
+msgid "Excerpt"
+msgstr "Выдержка"
+
+#: classes/class-enhance-list-tables.php:54
+msgid "Product Image"
+msgstr "Изображение товара"
+
+#: classes/class-enhance-list-tables.php:50
+msgid "Featured Image"
+msgstr "Изображение записи"
+
+#: classes/class-settings-sections-fields.php:2079
+msgid ""
+"Disable the <strong>&lt;generator&gt; tag</strong> in RSS feed "
+"&lt;channel&gt;, which discloses the WordPress version number. Older "
+"versions(s) might contain unpatched security loophole(s)."
+msgstr ""
+"Отключить <strong>тег &lt;generator&gt;</strong> в RSS-канале "
+"&lt;channel&gt;, который раскрывает номер версии WordPress. Более старые "
+"версии могут содержать непатченные уязвимости."
+
+#: classes/class-settings-sections-fields.php:2232
+msgid ""
+"Disable <strong>lazy loading of images</strong> that was natively added "
+"since WordPress v5.5."
+msgstr ""
+"Отключить <strong>отложенную загрузку изображений</strong>, которая была "
+"добавлена в WordPress с версии 5.5."
+
+#: classes/class-last-login-column.php:32
+msgid "Last Login"
+msgstr "Последний вход"
+
+#: classes/class-content-order.php:31 classes/class-content-order.php:45
+msgid "Order"
+msgstr "Порядок"
+
+#: classes/class-change-login-url.php:299
+#: classes/class-limit-login-attempts.php:222
+#: classes/class-limit-login-attempts.php:329
+msgid "Invalid username/email or incorrect password."
+msgstr "Неверное имя пользователя/электронная почта или неправильный пароль."
+
+#: classes/class-change-login-url.php:299
+#: classes/class-limit-login-attempts.php:222
+#: classes/class-limit-login-attempts.php:329
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: includes/password-protected-login.php:85
+msgid "View Content"
+msgstr "Просмотреть контент"
+
+#: includes/password-protected-login.php:80
+msgid "Password"
+msgstr "Пароль"
+
+#. translators: %s is URL to the Customizer
+#: classes/class-settings-sections-fields.php:1287
+#, qt-format
+msgid ""
+"Use the site icon and URL to replace the default WordPress logo with link to "
+"wordpress.org on the login page. Go to <a href=\"%1$s\">General Settings</a> "
+"or the <a href=\"%2$s\">Customizer</a> to set or change your site icon."
+msgstr ""
+"Используйте иконку сайта и URL, чтобы заменить логотип WordPress на логин "
+"странице. Перейдите в <a href=\"%1$s\">Общие настройки</a> или <a "
+"href=\"%2$s\">Кастомизатор</a> для установки или изменения иконки сайта."
+
+#: classes/class-settings-sections-fields.php:1020
+msgid ""
+"Various, smaller enhancements for different parts of the admin interface."
+msgstr ""
+"Различные, небольшие улучшения для разных частей интерфейса администратора."
+
+#: classes/class-settings-sections-fields.php:1010
+msgid "Various Admin UI Enhancements"
+msgstr "Различные улучшения интерфейса администратора"
+
+#: classes/class-settings-sections-fields.php:305
+msgid ""
+"Enable uploading <a "
+"href=\"https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/\" "
+"target=\"_blank\">AVIF</a> files in the Media Library. You can convert your "
+"existing PNG, JPG and GIF files using a tool like <a "
+"href=\"https://squoosh.app/\" target=\"_blank\">Squoosh</a>."
+msgstr ""
+"Включить загрузку файлов формата <a "
+"href=\"https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/\" "
+"target=\"_blank\">AVIF</a> в медиабиблиотеку. Вы можете конвертировать свои "
+"существующие PNG, JPG и GIF файлы с помощью инструмента <a "
+"href=\"https://squoosh.app/\" target=\"_blank\">Squoosh</a>."
+
+#: classes/class-settings-sections-fields.php:295
+msgid "AVIF Upload"
+msgstr "Загрузка AVIF"
+
+#: classes/class-settings-sections-fields.php:1875
+msgid ""
+"Disable the Gutenberg block editor for some or all applicable post types."
+msgstr ""
+"Отключить блоковый редактор Gutenberg для некоторых или всех применимых "
+"типов записей."
+
+#: classes/class-last-login-column.php:55
+msgid "Never"
+msgstr "Никогда"
+
+#: classes/class-admin-menu-organizer.php:162
+msgid "View"
+msgstr "Просмотреть"
+
+#: classes/class-admin-menu-organizer.php:160
+msgid "Edit"
+msgstr "Редактировать"
+
+#: classes/class-admin-menu-organizer.php:158
+#: classes/class-admin-menu-organizer.php:159
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: settings.php:930
+msgid "Configure"
+msgstr "Настроить"
+
+#: classes/class-settings-sections-fields.php:806
+msgid "Show Custom Taxonomy Filters"
+msgstr "Показать фильтры пользовательских таксономий"
+
+#: classes/class-settings-sections-fields.php:631
+msgid "Welcome to WordPress"
+msgstr "Добро пожаловать в WordPress"
+
+#: classes/class-password-protection.php:37
+msgid "Password protection is currently enabled for this site."
+msgstr "Парольная защита включена для этого сайта."
+
+#: classes/class-maintenance-mode.php:130
+msgid "Maintenance mode is currently enabled for this site."
+msgstr "На сайте включен режим обслуживания."
+
+#: classes/class-hide-admin-notices.php:68
+msgid "Click to view hidden admin notices"
+msgstr "Нажмите, чтобы просмотреть скрытые уведомления администратора"
+
+#: classes/class-hide-admin-notices.php:64
+msgid "Notices"
+msgstr "Уведомления"
+
+#: classes/class-hide-admin-notices.php:32
+msgid "Admin Notices"
+msgstr "Уведомления администратора"
+
+#. translators: %s is the singular label for the post type
+#: classes/class-content-duplication.php:142
+msgid "Duplicate %s"
+msgstr "Дублировать %s"
+
+#: classes/class-content-duplication.php:112
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: classes/class-content-duplication.php:112
+msgid "Duplicate this as draft"
+msgstr "Дублировать как черновик"
+
+#: classes/class-admin-menu-organizer.php:286
+#: classes/class-admin-menu-organizer.php:287
+msgid "Show Less"
+msgstr "Показать меньше"
+
+#: classes/class-admin-menu-organizer.php:275
+#: classes/class-admin-menu-organizer.php:276
+msgid "Show All"
+msgstr "Показать все"
+
+#: classes/class-content-duplication.php:32
+msgid "DUPLICATE"
+msgstr "ДУБЛИРОВАТЬ"
+
+#: settings.php:685
+msgid "Perform Replacement"
+msgstr "Выполнить замену"
+
+#: settings.php:170
+msgid "YouTube"
+msgstr "YouTube"
+
+#: settings.php:167
+msgid "X / Twitter"
+msgstr "X / Twitter"
+
+#: settings.php:160
+msgid "Facebook"
+msgstr "Facebook"
+
+#: settings.php:154
+msgid "Share about ASE on:"
+msgstr "Поделиться о ASE на:"
+
+#: classes/class-settings-sections-fields.php:1809
+msgid "<strong>Your app-ads.txt content:</strong>"
+msgstr "<strong>Ваше содержимое app-ads.txt:</strong>"
+
+#. translators: %s is the default login URL
+#: classes/class-settings-sections-fields.php:1185
+msgid "Default is %s"
+msgstr "По умолчанию %s"
+
+#: classes/class-search-engines-visibility.php:47
+msgid ""
+"Search engines are discouraged from indexing this site. Click to change the "
+"settings."
+msgstr ""
+"Поисковым системам не рекомендуется индексировать этот сайт. Нажмите, чтобы "
+"изменить настройки."
+
+#: classes/class-search-engines-visibility.php:44
+msgid "SE Visibility: OFF"
+msgstr "Видимость для ПС: ВЫКЛ."
+
+#: classes/class-media-replacement.php:74
+msgid ""
+"The current file will be replaced with the uploaded / selected file (of the "
+"same type) while retaining the current ID, publish date and file name. Thus, "
+"no existing links will break."
+msgstr ""
+"Текущий файл будет заменен загруженным / выбранным файлом (того же типа) с "
+"сохранением текущего ID, даты публикации и имени файла. Таким образом, "
+"существующие ссылки не будут нарушены."
+
+#: classes/class-media-replacement.php:72 settings.php:684
+msgid "Select New Media File"
+msgstr "Выбрать новый медиафайл"
+
+#: classes/class-media-replacement.php:69
+msgid "Replace Media"
+msgstr "Заменить медиафайл"
+
+#: settings.php:645
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: settings.php:644
+msgid "Next"
+msgstr "Следующий"
+
+#: settings.php:643
+msgid "Last"
+msgstr "Последний"
+
+#: settings.php:642
+msgid "First"
+msgstr "Первый"
+
+#: settings.php:640
+msgid "No matching records found"
+msgstr "Соответствующих записей не найдено"
+
+#: settings.php:639
+msgid "Search:"
+msgstr "Поиск:"
+
+#: settings.php:638
+msgid "Show _MENU_ entries"
+msgstr "Показать _MENU_ записей"
+
+#: settings.php:637
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(отфильтровано из _MAX_ записей)"
+
+#: settings.php:636
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Показано с 0 по 0 из 0 записей"
+
+#: settings.php:635
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Показано с _START_ по _END_ из _TOTAL_ записей"
+
+#: settings.php:634
+msgid "No data available in table"
+msgstr "Данные в таблице отсутствуют"
+
+#: settings.php:632
+msgid "Collapse"
+msgstr "Свернуть"
+
+#: classes/class-settings-fields-render.php:33 settings.php:631
+msgid "Expand"
+msgstr "Развернуть"
+
+#: settings.php:629
+msgid "Use Selected Image"
+msgstr "Использовать выбранное изображение"
+
+#: classes/class-settings-fields-render.php:549 settings.php:628
+msgid "Select an Image"
+msgstr "Выбрать изображение"
+
+#: settings.php:184
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: settings.php:178
+msgid ""
+"Help others discover ASE and maybe <a "
+"href=\"https://www.wpase.com/trnslt-plgnndg\" "
+"target=\"_blank\">translate</a> to your language."
+msgstr ""
+"Помогите другим открыть для себя ASE и, возможно, <a "
+"href=\"https://www.wpase.com/trnslt-plgnndg\" "
+"target=\"_blank\">перевести</a> на ваш язык."
+
+#: settings.php:173
+msgid "I've shared"
+msgstr "Я поделился"
+
+#: settings.php:149
+msgid ""
+"Or, help improve ASE by <a "
+"href=\"https://wordpress.org/support/plugin/admin-site-enhancements/\" "
+"target=\"_blank\">providing feedback</a>."
+msgstr ""
+"Или помогите улучшить ASE, <a "
+"href=\"https://wordpress.org/support/plugin/admin-site-enhancements/\" "
+"target=\"_blank\">оставив отзыв</a>."
+
+#: settings.php:145
+msgid "I've reviewed"
+msgstr "Я оставил отзыв"
+
+#: settings.php:142
+msgid "Add Your Review"
+msgstr "Оставить отзыв"
+
+#: settings.php:138
+msgid "Write a quick, 5-star review for ASE"
+msgstr "Напишите краткий отзыв на 5 звезд для ASE"
+
+#: classes/class-settings-sections-fields.php:2670
+msgid "<span class=\"faded\">(Default is 15 seconds)</span>"
+msgstr "<span class=\"faded\">(По умолчанию 15 секунд)</span>"
+
+#: classes/class-settings-sections-fields.php:816
+msgid ""
+"Show additional filter(s) on list tables for hierarchical, custom taxonomies."
+msgstr ""
+"Показать дополнительные фильтры в списках для иерархических пользовательских "
+"таксономий."
+
+#: classes/class-login-id-type.php:74
+msgid "Email"
+msgstr "Электронная почта"
+
+#: classes/class-login-id-type.php:56
+msgid "<strong>Error:</strong> Invalid email or incorrect password."
+msgstr ""
+"<strong>Ошибка:</strong> Неверная электронная почта или неправильный пароль."
+
+#: classes/class-login-id-type.php:22 classes/class-login-id-type.php:39
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: settings.php:317
+msgid ""
+"Do more with <a href=\"https://www.wpase.com/upgrade-ndg-btm\" "
+"target=\"_blank\">ASE Pro</a>. Lifetime deal (LTD) <a "
+"href=\"https://www.wpase.com/upgrade-ndg-btm-prc\" "
+"target=\"_blank\">available</a>."
+msgstr ""
+"Сделайте больше с <a href=\"https://www.wpase.com/upgrade-ndg-btm\" "
+"target=\"_blank\">ASE Pro</a>. Доступна бессрочная сделка (LTD) <a "
+"href=\"https://www.wpase.com/upgrade-ndg-btm-prc\" "
+"target=\"_blank\">здесь</a>."
+
+#: settings.php:243
+msgid "Utilities"
+msgstr "Утилиты"
+
+#: settings.php:239
+msgid "Optimizations"
+msgstr "Оптимизации"
+
+#: settings.php:235
+msgid "Security"
+msgstr "Безопасность"
+
+#: settings.php:231
+msgid "Disable Components"
+msgstr "Отключить компоненты"
+
+#: settings.php:227
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: settings.php:223
+msgid "Log In | Log Out"
+msgstr "Вход | Выход"
+
+#: settings.php:219
+msgid "Admin Interface"
+msgstr "Интерфейс администратора"
+
+#: settings.php:215
+msgid "Content Management"
+msgstr "Управление контентом"
+
+#: settings.php:133
+msgid "Please consider supporting ASE."
+msgstr "Пожалуйста, рассмотрите возможность поддержки ASE."
+
+#: settings.php:130
+msgid ""
+"Looks like some of these free enhancements have been useful for your site?"
+msgstr ""
+"Похоже, некоторые из этих бесплатных улучшений были полезны для вашего сайта?"
+
+#: settings.php:122
+msgid "Find Out More"
+msgstr "Узнать больше"
+
+#: settings.php:119
+msgid "The Pro version of ASE is here! Lifetime Deal (LTD) available."
+msgstr "Pro-версия ASE уже здесь! Доступна бессрочная сделка (LTD)."
+
+#: settings.php:106 settings.php:298
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: settings.php:101
+msgid "Get ASE Pro"
+msgstr "Получить ASE Pro"
+
+#: settings.php:34
+msgid "Enhancements"
+msgstr "Улучшения"
+
+#: classes/class-settings-sections-fields.php:3337
+msgid ""
+"Show admin bar status when search engines are set to be discouraged from "
+"indexing the site. This is set through a \"Search engine visibility\" "
+"checkbox in Settings >> Reading."
+msgstr ""
+"Показывать статус панели администратора, когда поисковым системам не "
+"рекомендуется индексировать сайт. Это настраивается через флажок \"Видимость "
+"для поисковых систем\" в Настройки >> Чтение."
+
+#: classes/class-settings-sections-fields.php:3327
+msgid "Search Engines Visibility Status"
+msgstr "Статус видимости для поисковых систем"
+
+#: classes/class-settings-sections-fields.php:3302
+msgid ""
+"Show quick summary of the system the site is running on to admins, in the "
+"\"At a Glance\" dashboard widget. This includes the web server software, the "
+"PHP version, the database software and server IP address."
+msgstr ""
+"Показывать краткое описание системы, на которой работает сайт, "
+"администраторам, в виджете \"Краткий обзор\" на панели инструментов. "
+"Включает программное обеспечение веб-сервера, версию PHP, программное "
+"обеспечение базы данных и IP-адрес сервера."
+
+#: classes/class-settings-sections-fields.php:3305
+msgid "Display System Summary"
+msgstr "Показать сводку системы"
+
+#: classes/class-settings-sections-fields.php:3278
+msgid ""
+"Perform 301 (permanent) redirect to the homepage for all 404 (not found) "
+"pages."
+msgstr ""
+"Выполнить 301 (постоянный) редирект на главную страницу для всех страниц с "
+"ошибкой 404 (страница не найдена)."
+
+#: classes/class-settings-sections-fields.php:3277
+msgid "Redirect 404 to Homepage"
+msgstr "Перенаправить 404 на главную страницу"
+
+#: classes/class-settings-sections-fields.php:3270
+msgid ""
+"Please clear your cache</strong> after enabling or disabling maintenance "
+"mode. This ensures site visitors see either the maintenance page or the "
+"actual content of each page."
+msgstr ""
+"Пожалуйста, очистите кэш</strong> после включения или отключения режима "
+"обслуживания. Это гарантирует, что посетители сайта увидят либо страницу "
+"обслуживания, либо фактический контент каждой страницы."
+
+#: classes/class-settings-sections-fields.php:3245
+msgid "Background"
+msgstr "Фон"
+
+#: classes/class-settings-sections-fields.php:3241
+msgid "Lines"
+msgstr "Линии"
+
+#: classes/class-settings-sections-fields.php:3240
+msgid "Curves"
+msgstr "Кривые"
+
+#: classes/class-settings-sections-fields.php:3239
+msgid "Stripes"
+msgstr "Полосы"
+
+#: classes/class-settings-sections-fields.php:3232
+msgid ""
+"This site is undergoing maintenance for an extended period today. Thanks for "
+"your patience."
+msgstr ""
+"Сегодня на этом сайте проводятся длительные технические работы. Спасибо за "
+"ваше терпение."
+
+#: classes/class-settings-sections-fields.php:3218
+msgid "Description"
+msgstr "Описание"
+
+#: classes/class-settings-sections-fields.php:3210
+msgid "We'll be back soon."
+msgstr "Мы скоро вернемся."
+
+#: classes/class-settings-sections-fields.php:3197
+msgid "Heading"
+msgstr "Заголовок"
+
+#: classes/class-settings-sections-fields.php:3174
+msgid ""
+"Show a customizable maintenance page on the frontend while performing a "
+"brief maintenance to your site. Logged-in administrators can still view the "
+"site as usual."
+msgstr ""
+"Показать настраиваемую страницу обслуживания на внешней стороне сайта во "
+"время краткосрочных технических работ. Входящие администраторы могут "
+"продолжать использовать сайт как обычно."
+
+#: classes/class-settings-sections-fields.php:3164
+msgid "Maintenance Mode"
+msgstr "Режим обслуживания"
+
+#: classes/class-settings-sections-fields.php:3154
+msgid "(Default is 'secret')"
+msgstr "(По умолчанию 'secret')"
+
+#: classes/class-settings-sections-fields.php:3143
+msgid "Set the password:"
+msgstr "Установить пароль:"
+
+#: classes/class-settings-sections-fields.php:3133
+msgid ""
+"Password-protect the entire site to hide the content from public view and "
+"search engine bots / crawlers. Logged-in administrators can still access the "
+"site as usual."
+msgstr ""
+"Установить пароль для всего сайта, чтобы скрыть контент от посторонних и "
+"поисковых роботов. Входящие администраторы смогут продолжать работать с "
+"сайтом как обычно."
+
+#: classes/class-settings-sections-fields.php:3123
+msgid "Password Protection"
+msgstr "Защита паролем"
+
+#. translators: %s is URL of the role reset link
+#: classes/class-settings-sections-fields.php:3112
+msgid ""
+"If something goes wrong</strong> and you need to regain access to your "
+"account as an administrator, please visit the following URL: <br "
+"/><strong>%s</strong><br /><br />If you use <strong>Ninja Firewall</strong>, "
+"please uncheck \"Block attempts to gain administrative privileges\" in the "
+"Firewall Policies settings before you try to view as a non-admin user role "
+"to <strong>prevent being locked out</strong> of your admin account."
+msgstr ""
+"Если что-то пойдет не так</strong> и вам нужно будет восстановить доступ к "
+"вашей учетной записи администратора, пожалуйста, перейдите по следующему "
+"URL: <br /><strong>%s</strong><br /><br />Если вы используете <strong>Ninja "
+"Firewall</strong>, снимите флажок \"Блокировать попытки получения "
+"административных прав\" в настройках политики брандмауэра перед тем, как "
+"просматривать сайт под ролью пользователя, не являющегося администратором, "
+"чтобы <strong>предотвратить блокировку</strong> вашей учетной записи "
+"администратора."
+
+#: classes/class-settings-sections-fields.php:3090
+msgid ""
+"View admin pages and the site (logged-in) as one of the non-administrator "
+"user roles."
+msgstr ""
+"Просматривать страницы администратора и сайт (входящий пользователь) как "
+"одна из ролей, не являющаяся администратором."
+
+#: classes/class-settings-sections-fields.php:3080
+msgid "View Admin as Role"
+msgstr "Просмотр администратора как роль"
+
+#: classes/class-settings-sections-fields.php:3070
+msgid ""
+"Display a panel showing and linking to all available sizes when viewing an "
+"image in the media library. Especially useful to quickly get the URL of a "
+"particular image size."
+msgstr ""
+"Отображать панель с указанием и ссылками на все доступные размеры при "
+"просмотре изображения в медиабиблиотеке. Особенно полезно для быстрого "
+"получения URL определенного размера изображения."
+
+#: classes/class-settings-sections-fields.php:3060
+msgid "Image Sizes Panel"
+msgstr "Панель размеров изображений"
+
+#: classes/class-settings-sections-fields.php:3050
+msgid ""
+"Enable assignment of multiple roles during user account creation and "
+"editing. This maybe useful for working with roles not defined in WordPress "
+"core, e.g. from e-commerce or LMS plugins."
+msgstr ""
+"Включить назначение нескольких ролей при создании и редактировании учетной "
+"записи пользователя. Это может быть полезно при работе с ролями, не "
+"определенными в ядре WordPress, например, в плагинах для электронной "
+"коммерции или LMS."
+
+#: classes/class-settings-sections-fields.php:3040
+msgid "Multiple User Roles"
+msgstr "Несколько ролей пользователя"
+
+#: classes/class-settings-sections-fields.php:3031
+msgid ""
+"Oops, something went wrong</span>.<br />Please double check your settings "
+"and the destination email address."
+msgstr ""
+"Ой, что-то пошло не так</span>.<br />Пожалуйста, проверьте настройки и адрес "
+"электронной почты назначения."
+
+#: classes/class-settings-sections-fields.php:3030
+msgid ""
+"Test email was successfully processed</span>.<br />Please check the "
+"destination email's inbox to verify successful delivery."
+msgstr ""
+"Тестовое письмо было успешно обработано</span>.<br />Проверьте почтовый ящик "
+"электронной почты назначения, чтобы убедиться в успешной доставке."
+
+#: classes/class-settings-sections-fields.php:3029
+msgid "Sending test email..."
+msgstr "Отправка тестового письма..."
+
+#: classes/class-settings-sections-fields.php:3013
+msgid "Send Now"
+msgstr "Отправить сейчас"
+
+#: classes/class-settings-sections-fields.php:3007
+msgid ""
+"<span class=\"field-sublabel sublabel-wide\">Send a test email to</span>"
+msgstr ""
+"<span class=\"field-sublabel sublabel-wide\">Отправить тестовое письмо "
+"на</span>"
+
+#: classes/class-settings-sections-fields.php:2999
+msgid ""
+"After saving the settings above, check if everything is configured properly "
+"below."
+msgstr ""
+"После сохранения настроек выше, проверьте, правильно ли все настроено ниже."
+
+#: classes/class-settings-sections-fields.php:2984
+msgid ""
+"Enable debug mode and output the debug info into WordPress debug.log file."
+msgstr ""
+"Включить режим отладки и выводить отладочную информацию в файл debug.log "
+"WordPress."
+
+#: classes/class-settings-sections-fields.php:2967
+msgid ""
+"Bypass verification of SSL certificate. This would be insecure if mail is "
+"delivered across the internet but could help in certain local and/or "
+"containerized WordPress scenarios."
+msgstr ""
+"Обойти проверку SSL-сертификата. Это будет небезопасно, если почта "
+"доставляется через интернет, но может помочь в определенных локальных и/или "
+"контейнеризованных сценариях WordPress."
+
+#: classes/class-settings-sections-fields.php:2938
+msgid "<span class=\"field-sublabel sublabel-wide\">Password</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Пароль</span>"
+
+#: classes/class-settings-sections-fields.php:2918
+msgid "<span class=\"field-sublabel sublabel-wide\">Username</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Имя пользователя</span>"
+
+#: classes/class-settings-sections-fields.php:2908
+msgid "TLS"
+msgstr "TLS"
+
+#: classes/class-settings-sections-fields.php:2907
+msgid "SSL"
+msgstr "SSL"
+
+#: classes/class-settings-sections-fields.php:2906
+msgid "None"
+msgstr "Нет"
+
+#: classes/class-settings-sections-fields.php:2896
+msgid "<span class=\"field-sublabel sublabel-wide\">Security</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Безопасность</span>"
+
+#: classes/class-settings-sections-fields.php:2875
+msgid "<span class=\"field-sublabel sublabel-wide\">Port</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Порт</span>"
+
+#: classes/class-settings-sections-fields.php:2855
+msgid "<span class=\"field-sublabel sublabel-wide\">Host</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Хост</span>"
+
+#: classes/class-settings-sections-fields.php:2847
+msgid ""
+"If set, the following SMTP service/account will be used to deliver your "
+"emails."
+msgstr ""
+"Если установлено, будет использоваться следующий SMTP-сервис/учетная запись "
+"для доставки ваших писем."
+
+#: classes/class-settings-sections-fields.php:2832
+msgid ""
+"Force the usage of the sender name/email defined above. It will override "
+"those set by other plugins."
+msgstr ""
+"Принудительное использование имени/электронной почты отправителя, указанных "
+"выше. Это заменит те, что установлены другими плагинами."
+
+#: classes/class-settings-sections-fields.php:2803
+msgid "<span class=\"field-sublabel sublabel-wide\">Sender email</span>"
+msgstr ""
+"<span class=\"field-sublabel sublabel-wide\">Электронная почта "
+"отправителя</span>"
+
+#: classes/class-settings-sections-fields.php:2783
+msgid "<span class=\"field-sublabel sublabel-wide\">Sender name</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Имя отправителя</span>"
+
+#: classes/class-settings-sections-fields.php:2775
+msgid ""
+"If set, the following sender name/email overrides WordPress core defaults "
+"but can still be overridden by other plugins that enables custom sender "
+"name/email, e.g. form plugins."
+msgstr ""
+"Если установлено, указанное имя/электронная почта отправителя заменит "
+"значения по умолчанию в ядре WordPress, но может быть изменено другими "
+"плагинами, которые позволяют настроить имя/электронную почту отправителя, "
+"например, плагинами форм."
+
+#: classes/class-settings-sections-fields.php:2758
+msgid ""
+"Set custom sender name and email. Optionally use external SMTP service to "
+"ensure notification and transactional emails from your site are being "
+"delivered to inboxes."
+msgstr ""
+"Установить пользовательские имя и электронную почту отправителя. При "
+"необходимости используйте внешний SMTP-сервис, чтобы гарантировать доставку "
+"уведомлений и транзакционных писем с вашего сайта в почтовые ящики."
+
+#: classes/class-settings-sections-fields.php:2748
+msgid "Email Delivery"
+msgstr "Доставка писем"
+
+#: classes/class-settings-sections-fields.php:2690
+msgid "On the frontend"
+msgstr "На фронтенде"
+
+#: classes/class-settings-sections-fields.php:2677
+msgid "120 seconds"
+msgstr "120 секунд"
+
+#: classes/class-settings-sections-fields.php:2676
+msgid "90 seconds"
+msgstr "90 секунд"
+
+#: classes/class-settings-sections-fields.php:2675
+msgid "60 seconds"
+msgstr "60 секунд"
+
+#: classes/class-settings-sections-fields.php:2674
+msgid "45 seconds"
+msgstr "45 секунд"
+
+#: classes/class-settings-sections-fields.php:2637
+msgid "On post creation and edit screens"
+msgstr "На экранах создания и редактирования записей"
+
+#: classes/class-settings-sections-fields.php:2624
+#: classes/class-settings-sections-fields.php:2731
+msgid "10 minutes"
+msgstr "10 минут"
+
+#: classes/class-settings-sections-fields.php:2623
+#: classes/class-settings-sections-fields.php:2730
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: classes/class-settings-sections-fields.php:2622
+#: classes/class-settings-sections-fields.php:2729
+msgid "3 minutes"
+msgstr "3 минуты"
+
+#: classes/class-settings-sections-fields.php:2621
+#: classes/class-settings-sections-fields.php:2728
+msgid "2 minutes"
+msgstr "2 минуты"
+
+#: classes/class-settings-sections-fields.php:2620
+#: classes/class-settings-sections-fields.php:2727
+msgid "1 minute"
+msgstr "1 минута"
+
+#: classes/class-settings-sections-fields.php:2619
+#: classes/class-settings-sections-fields.php:2673
+#: classes/class-settings-sections-fields.php:2726
+msgid "30 seconds"
+msgstr "30 секунд"
+
+#: classes/class-settings-sections-fields.php:2618
+#: classes/class-settings-sections-fields.php:2672
+#: classes/class-settings-sections-fields.php:2725
+msgid "15 seconds"
+msgstr "15 секунд"
+
+#: classes/class-settings-sections-fields.php:2616
+msgid "<span class=\"faded\">(Default is 1 minute)</span>"
+msgstr "<span class=\"faded\">(По умолчанию 1 минута)</span>"
+
+#: classes/class-settings-sections-fields.php:2615
+#: classes/class-settings-sections-fields.php:2669
+#: classes/class-settings-sections-fields.php:2722
+msgid "Set interval to once every"
+msgstr "Установить интервал каждые"
+
+#: classes/class-settings-sections-fields.php:2595
+#: classes/class-settings-sections-fields.php:2649
+#: classes/class-settings-sections-fields.php:2702
+msgid "Disable"
+msgstr "Отключить"
+
+#: classes/class-settings-sections-fields.php:2594
+#: classes/class-settings-sections-fields.php:2648
+#: classes/class-settings-sections-fields.php:2701
+msgid "Modify"
+msgstr "Изменить"
+
+#: classes/class-settings-sections-fields.php:2593
+#: classes/class-settings-sections-fields.php:2647
+#: classes/class-settings-sections-fields.php:2700
+msgid "Keep as is"
+msgstr "Оставить как есть"
+
+#: classes/class-settings-sections-fields.php:2583
+msgid "On admin pages"
+msgstr "На страницах админки"
+
+#: classes/class-settings-sections-fields.php:2573
+msgid ""
+"Modify the interval of the WordPress heartbeat API or disable it on admin "
+"pages, post creation/edit screens and/or the frontend. This will help reduce "
+"CPU load on the server."
+msgstr ""
+"Измените интервал работы API heartbeat WordPress или отключите его на "
+"страницах администратора, экранах создания/редактирования записей и/или на "
+"внешней стороне сайта. Это поможет уменьшить нагрузку на процессор сервера."
+
+#: classes/class-settings-sections-fields.php:2563
+msgid "Heartbeat Control"
+msgstr "Управление Heartbeat"
+
+#: classes/class-settings-sections-fields.php:2525
+msgid "revisions for:"
+msgstr "ревизии для:"
+
+#: classes/class-settings-sections-fields.php:2524
+msgid "Limit to"
+msgstr "Ограничить до"
+
+#: classes/class-settings-sections-fields.php:2504
+msgid ""
+"Prevent bloating the database by limiting the number of revisions to keep "
+"for some or all post types supporting revisions."
+msgstr ""
+"Предотвратите разрастание базы данных, ограничив количество ревизий для "
+"некоторых или всех типов записей, поддерживающих ревизии."
+
+#: classes/class-settings-sections-fields.php:2494
+msgid "Revisions Control"
+msgstr "Контроль ревизий"
+
+#: classes/class-settings-sections-fields.php:2475
+msgid ""
+"To exclude an image from conversion and resizing, append '-nr' suffix to the "
+"file name, e.g. bird-photo-4k-nr.jpg"
+msgstr ""
+"Чтобы исключить изображение из конвертации и изменения размера, добавьте "
+"суффикс '-nr' к имени файла, например, bird-photo-4k-nr.jpg"
+
+#: classes/class-settings-sections-fields.php:2467
+msgid "pixels <span class=\"faded\">(Default is 1920 pixels)</span>"
+msgstr "пиксели <span class=\"faded\">(По умолчанию 1920 пикселей)</span>"
+
+#: classes/class-settings-sections-fields.php:2466
+msgid "Max height:"
+msgstr "Максимальная высота:"
+
+#: classes/class-settings-sections-fields.php:2445
+msgid "pixels. <span class=\"faded\">(Default is 1920 pixels)</span>"
+msgstr "пикселей. <span class=\"faded\">(По умолчанию 1920 пикселей)</span>"
+
+#: classes/class-settings-sections-fields.php:2444
+msgid "Max width:"
+msgstr "Максимальная ширина:"
+
+#: classes/class-settings-sections-fields.php:2424
+msgid ""
+"Resize newly uploaded, large images to a smaller dimension and delete "
+"originally uploaded files. BMPs and non-transparent PNGs will be converted "
+"to JPGs and resized."
+msgstr ""
+"Изменяйте размер недавно загруженных больших изображений до меньших размеров "
+"и удаляйте исходные файлы. BMP и непрозрачные PNG будут преобразованы в JPG "
+"и изменены в размере."
+
+#: classes/class-settings-sections-fields.php:2414
+msgid "Image Upload Control"
+msgstr "Контроль загрузки изображений"
+
+#: classes/class-settings-sections-fields.php:2401
+msgid ""
+"Protect your site from brute force, DOS and DDOS attacks via <a "
+"href=\"https://kinsta.com/blog/xmlrpc-php/#what-is-xmlrpcphp\" "
+"target=\"_blank\">XML-RPC</a>. Also disables trackbacks and pingbacks."
+msgstr ""
+"Защитите ваш сайт от атак brute force, DOS и DDOS через <a "
+"href=\"https://kinsta.com/blog/xmlrpc-php/#what-is-xmlrpcphp\" "
+"target=\"_blank\">XML-RPC</a>. Также отключает обратные ссылки и пингбеки."
+
+#: classes/class-settings-sections-fields.php:2391
+msgid "Disable XML-RPC"
+msgstr "Отключить XML-RPC"
+
+#: classes/class-settings-sections-fields.php:2368
+msgid ""
+"Use a shortcode like the following examples to display an email address on "
+"the frontend of your site: \n"
+"        \t\t<ul>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\"]</strong> to "
+"display the email on it's own line</li>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\" "
+"display=\"inline\"]</strong> to show the email inline</li>\n"
+"        \t\t</ul>"
+msgstr ""
+"Используйте шорткод, как в следующих примерах, чтобы отобразить адрес "
+"электронной почты на внешней стороне сайта: \n"
+"        \t\t<ul>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\"]</strong> "
+"для отображения электронной почты в отдельной строке</li>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\" "
+"display=\"inline\"]</strong> для отображения электронной почты в "
+"строке</li>\n"
+"        \t\t</ul>"
+
+#: classes/class-settings-sections-fields.php:2360
+msgid ""
+"Obfuscate email address to prevent spam bots from harvesting them, but make "
+"it readable like a regular email address for human visitors."
+msgstr ""
+"Зашифруйте адрес электронной почты, чтобы предотвратить сбор его "
+"спам-ботами, но сделайте его читаемым как обычный адрес электронной почты "
+"для посетителей."
+
+#: classes/class-settings-sections-fields.php:2350
+msgid "Email Address Obfuscator"
+msgstr "Шифрование адреса электронной почты"
+
+#: classes/class-settings-sections-fields.php:2340
+msgid ""
+"Obfuscate publicly exposed author page URLs that shows the user slugs / "
+"usernames, e.g. <em>sitename.com/author/username1/</em> into "
+"<em>sitename.com/author/a6r5b8ytu9gp34bv/</em>, and output 404 errors for "
+"the original URLs. Also obfuscates in /wp-json/wp/v2/users/ REST API "
+"endpoint."
+msgstr ""
+"Зашифруйте публично доступные URL-адреса страницы автора, которые показывают "
+"слаги пользователей/имена пользователей, например, "
+"<em>sitename.com/author/username1/</em> в "
+"<em>sitename.com/author/a6r5b8ytu9gp34bv/</em>, и выводите ошибки 404 для "
+"оригинальных URL. Также зашифровывает в REST API /wp-json/wp/v2/users/."
+
+#: classes/class-settings-sections-fields.php:2330
+msgid "Obfuscate Author Slugs"
+msgstr "Шифрование слагов авторов"
+
+#: classes/class-settings-sections-fields.php:2321
+msgid "Failed Login Attempts Log"
+msgstr "Журнал неудачных попыток входа"
+
+#: classes/class-settings-sections-fields.php:2308
+msgid "Failed login attempts:"
+msgstr "Неудачные попытки входа:"
+
+#: classes/class-settings-sections-fields.php:2297
+msgid "lockout(s) will block further login attempts for 24 hours"
+msgstr "блокировка(и) заблокируют дальнейшие попытки входа на 24 часа"
+
+#: classes/class-settings-sections-fields.php:2275
+msgid "failed login attempts allowed before 15 minutes lockout"
+msgstr "разрешено неудачных попыток входа перед 15-минутной блокировкой"
+
+#: classes/class-settings-sections-fields.php:2254
+msgid ""
+"Prevent brute force attacks by limiting the number of failed login attempts "
+"allowed per IP address."
+msgstr ""
+"Предотвратите атаки типа brute force, ограничив количество неудачных попыток "
+"входа с одного IP-адреса."
+
+#: classes/class-settings-sections-fields.php:2244
+msgid "Limit Login Attempts"
+msgstr "Ограничить количество попыток входа"
+
+#: classes/class-settings-sections-fields.php:2215
+msgid ""
+"Disable <strong>block-based widgets settings screen</strong>. Restores the "
+"classic widgets settings screen when using a classic (non-block) theme. This "
+"has no effect on block themes."
+msgstr ""
+"Отключить <strong>экран настроек блоковых виджетов</strong>. Восстанавливает "
+"классический экран настроек виджетов при использовании классической "
+"(неблоковой) темы. Это не влияет на блоковые темы."
+
+#: classes/class-settings-sections-fields.php:2198
+msgid ""
+"Disable <strong>jQuery Migrate</strong> script on the frontend, which should "
+"no longer be needed if your site uses modern theme and plugins."
+msgstr ""
+"Отключить скрипт <strong>jQuery Migrate</strong> на внешней стороне сайта, "
+"который больше не нужен, если ваш сайт использует современную тему и плагины."
+
+#: classes/class-settings-sections-fields.php:2181
+msgid ""
+"Disable <strong>emoji support for pages, posts and custom post "
+"types</strong> on the admin and frontend. The support is primarily useful "
+"for older browsers that do not have native support for it. Most modern "
+"browsers across different OSes and devices now have native support for it."
+msgstr ""
+"Отключить <strong>поддержку эмодзи для страниц, записей и пользовательских "
+"типов записей</strong> в админке и на внешней стороне сайта. Поддержка в "
+"основном полезна для старых браузеров, которые не имеют встроенной "
+"поддержки. Большинство современных браузеров на разных ОС и устройствах "
+"теперь имеют встроенную поддержку."
+
+#: classes/class-settings-sections-fields.php:2164
+msgid ""
+"Disable loading of <strong>Dashicons CSS and JS files</strong> on the "
+"front-end for public site visitors. This might break the layout or design of "
+"custom forms, including custom login forms, if they depend on Dashicons. "
+"Make sure to check those forms after disabling."
+msgstr ""
+"Отключить загрузку файлов <strong>Dashicons CSS и JS</strong> на внешней "
+"стороне сайта для публичных посетителей. Это может нарушить макет или дизайн "
+"пользовательских форм, включая формы входа, если они зависят от Dashicons. "
+"Обязательно проверьте эти формы после отключения."
+
+#: classes/class-settings-sections-fields.php:2147
+msgid ""
+"Disable the default <strong>WordPress shortlink &lt;link&gt; tag</strong> in "
+"&lt;head&gt;. Ignored by search engines and has minimal practical use case. "
+"Usually, a dedicated shortlink plugin or service is preferred that allows "
+"for nice names in the short links and tracking of clicks when sharing the "
+"link on social media."
+msgstr ""
+"Отключить стандартный <strong>тег &lt;link&gt; короткой ссылки "
+"WordPress</strong> в &lt;head&gt;. Игнорируется поисковыми системами и имеет "
+"минимальное практическое применение. Обычно предпочтителен специальный "
+"плагин или сервис коротких ссылок, который позволяет создавать красивые "
+"имена коротких ссылок и отслеживать клики при публикации ссылки в социальных "
+"сетях."
+
+#: classes/class-settings-sections-fields.php:2130
+msgid ""
+"Disable the <strong>Really Simple Discovery (RSD) &lt;link&gt; tag</strong> "
+"in &lt;head&gt;. It's not needed if your site is not using pingback or "
+"remote (XML-RPC) client to manage posts."
+msgstr ""
+"Отключить <strong>тег Really Simple Discovery (RSD) &lt;link&gt;</strong> в "
+"&lt;head&gt;. Не требуется, если ваш сайт не использует pingback или "
+"удаленный (XML-RPC) клиент для управления записями."
+
+#: classes/class-settings-sections-fields.php:2113
+msgid ""
+"Disable the <strong>Windows Live Writer (WLW) manifest &lt;link&gt; "
+"tag</strong> in &lt;head&gt;. The WLW app was discontinued in 2017."
+msgstr ""
+"Отключить <strong>тег манифеста Windows Live Writer (WLW) "
+"&lt;link&gt;</strong> в &lt;head&gt;. Приложение WLW было прекращено в 2017 "
+"году."
+
+#: classes/class-settings-sections-fields.php:2096
+msgid ""
+"Disable <strong>version number</strong> on static resource URLs referenced "
+"in &lt;head&gt;, which can disclose WordPress version number. Older "
+"versions(s) might contain unpatched security loophole(s). Applies to "
+"non-logged-in view of pages. This will also increase cacheability of static "
+"assets, but may have unintended consequences. Make sure you know what you "
+"are doing."
+msgstr ""
+"Отключить <strong>номер версии</strong> в статических URL-адресах ресурсов, "
+"указанных в &lt;head&gt;, который может раскрыть версию WordPress. Более "
+"старые версии могут содержать непатченные уязвимости. Применяется к "
+"просмотру страниц без входа в систему. Это также увеличит кэшируемость "
+"статических активов, но может иметь непредвиденные последствия. Убедитесь, "
+"что вы понимаете, что делаете."
+
+#: classes/class-settings-sections-fields.php:2062
+msgid ""
+"Disable the <strong>generator &lt;meta&gt; tag</strong> in &lt;head&gt;, "
+"which discloses the WordPress version number. Older versions(s) might "
+"contain unpatched security loophole(s)."
+msgstr ""
+"Отключить <strong>тег &lt;meta&gt; генератора</strong> в &lt;head&gt;, "
+"который раскрывает номер версии WordPress. Более старые версии могут "
+"содержать непатченные уязвимости."
+
+#: classes/class-settings-sections-fields.php:2043
+msgid ""
+"Prevent smaller components from running or loading. Make the site more "
+"secure, load slightly faster and be more optimized for crawling by search "
+"engines."
+msgstr ""
+"Предотвратите запуск или загрузку небольших компонентов. Сделайте сайт более "
+"безопасным, ускорьте его загрузку и улучшите оптимизацию для индексирования "
+"поисковыми системами."
+
+#: classes/class-settings-sections-fields.php:2033
+msgid "Disable Smaller Components"
+msgstr "Отключить небольшие компоненты"
+
+#: classes/class-settings-sections-fields.php:2022
+msgid ""
+"Completely disable core, theme and plugin updates and auto-updates. Will "
+"also disable update checks, notices and emails."
+msgstr ""
+"Полностью отключить обновления ядра, тем и плагинов, а также автоматические "
+"обновления. Это также отключит проверку обновлений, уведомления и "
+"электронные письма."
+
+#: classes/class-settings-sections-fields.php:2012
+msgid "Disable All Updates"
+msgstr "Отключить все обновления"
+
+#: classes/class-settings-sections-fields.php:2001
+msgid ""
+"Disable all RSS, Atom and RDF feeds. This includes feeds for posts, "
+"categories, tags, comments, authors and search. Also removes traces of feed "
+"URLs from &lt;head&gt;."
+msgstr ""
+"Отключить все RSS, Atom и RDF ленты. Это включает ленты для записей, "
+"категорий, меток, комментариев, авторов и поиска. Также удаляются ссылки на "
+"ленты из &lt;head&gt;."
+
+#: classes/class-settings-sections-fields.php:1991
+msgid "Disable Feeds"
+msgstr "Отключить ленты"
+
+#: classes/class-settings-sections-fields.php:1980
+msgid ""
+"Disable REST API access for non-authenticated users and remove URL traces "
+"from &lt;head&gt;, HTTP headers and WP RSD endpoint."
+msgstr ""
+"Отключить доступ к REST API для неаутентифицированных пользователей и "
+"удалить URL-следы из &lt;head&gt;, HTTP-заголовков и конечной точки WP RSD."
+
+#: classes/class-settings-sections-fields.php:1970
+msgid "Disable REST API"
+msgstr "Отключить REST API"
+
+#: classes/class-settings-sections-fields.php:1936
+msgid ""
+"Disable comments for some or all public post types. When disabled, existing "
+"comments will also be hidden on the frontend."
+msgstr ""
+"Отключить комментарии для некоторых или всех публичных типов записей. При "
+"отключении существующие комментарии также будут скрыты на внешней стороне "
+"сайта."
+
+#: classes/class-settings-sections-fields.php:1926
+msgid "Disable Comments"
+msgstr "Отключить комментарии"
+
+#: classes/class-settings-sections-fields.php:1917
+msgid ""
+"Also disable frontend block styles / CSS files for the selected post types."
+msgstr ""
+"Также отключить стили блоков на внешней стороне / файлы CSS для выбранных "
+"типов записей."
+
+#: classes/class-settings-sections-fields.php:1865
+msgid "Disable Gutenberg"
+msgstr "Отключить Gutenberg"
+
+#: classes/class-settings-sections-fields.php:1829
+msgid ""
+"Easily edit and validate your <a href=\"/robots.txt\" "
+"target=\"_blank\">robots.txt</a> content."
+msgstr ""
+"Легко редактируйте и проверяйте содержимое вашего <a href=\"/robots.txt\" "
+"target=\"_blank\">robots.txt</a>."
+
+#: classes/class-settings-sections-fields.php:1819
+msgid "Manage robots.txt"
+msgstr "Управление robots.txt"
+
+#: classes/class-settings-sections-fields.php:1787
+#: classes/class-settings-sections-fields.php:1810
+#: classes/class-settings-sections-fields.php:1853
+msgid "Validate with:"
+msgstr "Проверить с помощью:"
+
+#: classes/class-settings-sections-fields.php:1786
+msgid "<strong>Your ads.txt content:</strong>"
+msgstr "<strong>Ваше содержимое ads.txt:</strong>"
+
+#: classes/class-settings-sections-fields.php:1762
+msgid ""
+"Easily edit and validate your <a href=\"/ads.txt\" "
+"target=\"_blank\">ads.txt</a> and <a href=\"/app-ads.txt\" "
+"target=\"_blank\">app-ads.txt</a> content."
+msgstr ""
+"Легко редактируйте и проверяйте содержимое ваших <a href=\"/ads.txt\" "
+"target=\"_blank\">ads.txt</a> и <a href=\"/app-ads.txt\" "
+"target=\"_blank\">app-ads.txt</a>."
+
+#: classes/class-settings-sections-fields.php:1752
+msgid "Manage ads.txt and app-ads.txt"
+msgstr "Управление ads.txt и app-ads.txt"
+
+#: classes/class-settings-sections-fields.php:1716
+msgid ""
+"Add custom &lt;body&gt; class(es) on the singular view of some or all public "
+"post types. Compatible with classes already added using <a "
+"href=\"https://wordpress.org/plugins/wp-custom-body-class\" "
+"target=\"_blank\">Custom Body Class plugin</a>."
+msgstr ""
+"Добавить настраиваемые классы &lt;body&gt; для одиночного просмотра "
+"некоторых или всех публичных типов записей. Совместимо с классами, уже "
+"добавленными с помощью плагина <a "
+"href=\"https://wordpress.org/plugins/wp-custom-body-class\" "
+"target=\"_blank\">Custom Body Class</a>."
+
+#: classes/class-settings-sections-fields.php:1706
+msgid "Custom Body Class"
+msgstr "Пользовательский класс body"
+
+#: classes/class-settings-sections-fields.php:1676
+msgid "Default is 10. Larger number insert code closer to &lt;/body&gt;"
+msgstr "По умолчанию 10. Большое число вставляет код ближе к &lt;/body&gt;."
+
+#: classes/class-settings-sections-fields.php:1672
+msgid ""
+"<strong>Code to insert in footer section before &lt;/body&gt; with the "
+"priority of</strong>"
+msgstr ""
+"<strong>Код для вставки в секцию подвала перед &lt;/body&gt; с "
+"приоритетом</strong>"
+
+#: classes/class-settings-sections-fields.php:1633
+msgid "Default is 10. Smaller number insert code closer to &lt;body&gt;"
+msgstr "По умолчанию 10. Меньшее число вставляет код ближе к &lt;body&gt;."
+
+#: classes/class-settings-sections-fields.php:1629
+msgid "<strong>Code to insert after &lt;body&gt; with the priority of</strong>"
+msgstr "<strong>Код для вставки после &lt;body&gt; с приоритетом</strong>"
+
+#: classes/class-settings-sections-fields.php:1590
+msgid "Default is 10. Larger number insert code closer to &lt;/head&gt;"
+msgstr "По умолчанию 10. Большое число вставляет код ближе к &lt;/head&gt;."
+
+#: classes/class-settings-sections-fields.php:1586
+msgid ""
+"<strong>Code to insert before &lt;/head&gt; with the priority of</strong>"
+msgstr "<strong>Код для вставки перед &lt;/head&gt; с приоритетом</strong>"
+
+#: classes/class-settings-sections-fields.php:1566
+msgid ""
+"Easily insert &lt;meta&gt;, &lt;link&gt;, &lt;script&gt; and &lt;style&gt; "
+"tags, Google Analytics, Tag Manager, AdSense, Ads Conversion and Optimize "
+"code, Facebook, TikTok and Twitter pixels, etc."
+msgstr ""
+"Легко вставляйте теги &lt;meta&gt;, &lt;link&gt;, &lt;script&gt; и "
+"&lt;style&gt;, код Google Analytics, Tag Manager, AdSense, Ads Conversion и "
+"Optimize, пиксели Facebook, TikTok и Twitter и т.д."
+
+#. translators: keep &lt;head&gt; &lt;body&gt; &lt;footer&gt; as is in the
+#. translation
+#: classes/class-settings-sections-fields.php:1556
+msgid "Insert &lt;head&gt;, &lt;body&gt; and &lt;footer&gt; Code"
+msgstr "Вставить код &lt;head&gt;, &lt;body&gt; и &lt;footer&gt;"
+
+#: classes/class-settings-sections-fields.php:1523
+msgid "Add custom CSS on all frontend pages for all user roles."
+msgstr ""
+"Добавить пользовательский CSS на все страницы внешней стороны сайта для всех "
+"ролей пользователей."
+
+#: classes/class-settings-sections-fields.php:1513
+msgid "Custom Frontend CSS"
+msgstr "Пользовательский CSS для внешней стороны сайта"
+
+#: classes/class-settings-sections-fields.php:1481
+msgid "Add custom CSS on all admin pages for all user roles."
+msgstr ""
+"Добавить пользовательский CSS на все страницы администратора для всех ролей "
+"пользователей."
+
+#: classes/class-settings-sections-fields.php:1471
+msgid "Custom Admin CSS"
+msgstr "Пользовательский CSS для администратора"
+
+#: classes/class-settings-sections-fields.php:1417
+msgid "Set custom redirect URL for all or some user roles after logout."
+msgstr ""
+"Установить пользовательский URL для перенаправления после выхода для всех "
+"или некоторых ролей пользователей."
+
+#: classes/class-settings-sections-fields.php:1407
+msgid "Redirect After Logout"
+msgstr "Перенаправление после выхода"
+
+#: classes/class-settings-sections-fields.php:1373
+#: classes/class-settings-sections-fields.php:1438
+msgid "for:"
+msgstr "для:"
+
+#: classes/class-settings-sections-fields.php:1362
+#: classes/class-settings-sections-fields.php:1427
+msgid "Redirect to:"
+msgstr "Перенаправить на:"
+
+#: classes/class-settings-sections-fields.php:1352
+msgid "Set custom redirect URL for all or some user roles after login."
+msgstr ""
+"Установить пользовательский URL для перенаправления после входа для всех или "
+"некоторых ролей пользователей."
+
+#: classes/class-settings-sections-fields.php:1342
+msgid "Redirect After Login"
+msgstr "Перенаправление после входа"
+
+#: classes/class-settings-sections-fields.php:1331
+msgid ""
+"Log when users on the site last logged in and display the date and time in "
+"the users list table."
+msgstr ""
+"Записывать время последнего входа пользователей на сайт и отображать дату и "
+"время в таблице пользователей."
+
+#: classes/class-settings-sections-fields.php:1321
+msgid "Last Login Column"
+msgstr "Колонка последнего входа"
+
+#: classes/class-settings-sections-fields.php:1310
+msgid ""
+"Enable log in, log out and dynamic log in/out menu item for addition to any "
+"menu."
+msgstr ""
+"Включить пункты входа, выхода и динамические элементы меню для добавления в "
+"любое меню."
+
+#: classes/class-settings-sections-fields.php:1300
+msgid "Log In/Out Menu"
+msgstr "Меню входа/выхода"
+
+#: classes/class-settings-sections-fields.php:1275
+msgid "Site Identity on Login Page"
+msgstr "Идентичность сайта на странице входа"
+
+#: classes/class-settings-sections-fields.php:1264
+msgid "Email address only"
+msgstr "Только адрес электронной почты"
+
+#: classes/class-settings-sections-fields.php:1263
+msgid "Username only"
+msgstr "Только имя пользователя"
+
+#: classes/class-settings-sections-fields.php:1244
+msgid "Restrict login ID to username or email address only."
+msgstr ""
+"Ограничить идентификатор входа только именем пользователя или адресом "
+"электронной почты."
+
+#: classes/class-settings-sections-fields.php:1234
+msgid "Login ID Type"
+msgstr "Тип идентификатора входа"
+
+#: classes/class-settings-sections-fields.php:1225
+msgid ""
+"<div class=\"asenha-warning\">This feature <strong>only works for/with the "
+"default WordPress login page</strong>. It does not support using custom "
+"login page you manually created with a page builder or with another "
+"plugin.<br /><br />It's also <strong>not yet compatible with two-factor "
+"authentication (2FA) methods</strong>. If you use a 2FA plugin, please use "
+"the change login URL feature bundled in that plugin, or use another plugin "
+"that is compatible with it.<br /><br />And obviously, to improve security, "
+"please <strong>use something other than 'login'</strong> for the custom "
+"login slug.</div>"
+msgstr ""
+"<div class=\"asenha-warning\">Эта функция <strong>работает только с/для "
+"стандартной страницы входа WordPress</strong>. Она не поддерживает "
+"использование пользовательской страницы входа, которую вы создали с помощью "
+"конструктора страниц или другого плагина.<br /><br />Также <strong>еще не "
+"совместима с методами двухфакторной аутентификации (2FA)</strong>. Если вы "
+"используете плагин 2FA, пожалуйста, используйте функцию изменения URL-адреса "
+"входа, встроенную в этот плагин, или используйте другой плагин, совместимый "
+"с ним.<br /><br />И, конечно же, для повышения безопасности, пожалуйста, "
+"<strong>используйте что-то другое, кроме 'login'</strong> для "
+"пользовательского slug страницы входа.</div>"
+
+#: classes/class-settings-sections-fields.php:1197
+msgid "New login URL:"
+msgstr "Новый URL для входа:"
+
+#: classes/class-settings-sections-fields.php:1173
+msgid "Change Login URL"
+msgstr "Изменить URL для входа"
+
+#. translators: %s is the WordPress version number
+#: classes/class-settings-sections-fields.php:1157
+msgid "Default text is: <em>Version %s</em>"
+msgstr "Текст по умолчанию: <em>Версия %s</em>"
+
+#: classes/class-settings-sections-fields.php:1142
+msgid "Right Side"
+msgstr "Правая сторона"
+
+#: classes/class-settings-sections-fields.php:1117
+msgid ""
+"Default text is: <em>Thank you for creating with <a "
+"href=\"https://wordpress.org/\">WordPress</a></em>."
+msgstr ""
+"Текст по умолчанию: <em>Спасибо за создание с помощью <a "
+"href=\"https://wordpress.org/\">WordPress</a></em>."
+
+#: classes/class-settings-sections-fields.php:1105
+msgid "Left Side"
+msgstr "Левая сторона"
+
+#: classes/class-settings-sections-fields.php:1077
+msgid ""
+"Customize the text you see on the footer of wp-admin pages other than this "
+"ASE settings page."
+msgstr ""
+"Настройте текст, который вы видите в нижнем колонтитуле страниц wp-admin, "
+"кроме страницы настроек ASE."
+
+#: classes/class-settings-sections-fields.php:1067
+msgid "Custom Admin Footer Text"
+msgstr "Пользовательский текст в нижнем колонтитуле администратора"
+
+#: classes/class-settings-sections-fields.php:1058
+msgid ""
+"Display active / activated plugins at the top of the Installed Plugins list. "
+"Useful when your site has many deactivated plugins for testing or "
+"development purposes."
+msgstr ""
+"Отображать активные/включенные плагины в верхней части списка установленных "
+"плагинов. Полезно, когда на сайте много отключенных плагинов для "
+"тестирования или разработки."
+
+#: classes/class-settings-sections-fields.php:1058
+msgid "Display Active Plugins First"
+msgstr "Отображать активные плагины первыми"
+
+#: classes/class-settings-sections-fields.php:1001
+msgid "Remove tags column (for posts)"
+msgstr "Удалить колонку тегов (для записей)"
+
+#: classes/class-settings-sections-fields.php:983
+msgid "Remove comments column"
+msgstr "Удалить колонку комментариев"
+
+#: classes/class-settings-sections-fields.php:947
+msgid "Show ID in action rows along with links for Edit, View, etc."
+msgstr ""
+"Показывать ID в строках действий вместе с ссылками на редактирование, "
+"просмотр и т.д."
+
+#: classes/class-settings-sections-fields.php:929
+msgid "Show file size column in media library"
+msgstr "Показывать колонку с размером файла в медиабиблиотеке"
+
+#: classes/class-settings-sections-fields.php:911
+msgid "Show ID column"
+msgstr "Показать колонку ID"
+
+#: classes/class-settings-sections-fields.php:875
+msgid "Show excerpt column"
+msgstr "Показать колонку отрывка"
+
+#: classes/class-settings-sections-fields.php:857
+msgid "Show featured image column"
+msgstr "Показать колонку с изображением записи"
+
+#: classes/class-settings-sections-fields.php:837
+msgid ""
+"Improve the usefulness of listing pages for various post types and "
+"taxonomies, media, comments and users by adding / removing columns and "
+"elements."
+msgstr ""
+"Улучшите удобство использования страниц списка для различных типов записей и "
+"таксономий, медиа, комментариев и пользователей, добавляя/удаляя колонки и "
+"элементы."
+
+#: classes/class-settings-sections-fields.php:827
+msgid "Enhance List Tables"
+msgstr "Улучшить таблицы списков"
+
+#: classes/class-settings-sections-fields.php:775
+msgid ""
+"Customize the order of the admin menu and optionally change menu item title "
+"or hide some items."
+msgstr ""
+"Настройте порядок меню администратора и, при необходимости, измените "
+"заголовки пунктов меню или скройте некоторые элементы."
+
+#: classes/class-settings-sections-fields.php:765
+msgid "Admin Menu Organizer"
+msgstr "Органайзер меню администратора"
+
+#: classes/class-settings-sections-fields.php:743
+msgid "(Default is 160px)"
+msgstr "(По умолчанию 160px)"
+
+#: classes/class-settings-sections-fields.php:742
+msgid "Set width to"
+msgstr "Установить ширину до"
+
+#: classes/class-settings-sections-fields.php:723
+msgid "Give the admin menu more room to better accommodate wider items."
+msgstr ""
+"Предоставьте больше места для меню администратора, чтобы лучше размещать "
+"более широкие элементы."
+
+#: classes/class-settings-sections-fields.php:713
+msgid "Wider Admin Menu"
+msgstr "Более широкое меню администратора"
+
+#: classes/class-settings-sections-fields.php:669
+msgid "Hide Admin Bar"
+msgstr "Скрыть панель администратора"
+
+#: classes/class-settings-sections-fields.php:666
+msgid "Hide admin bar on the frontend for all or some user roles."
+msgstr ""
+"Скрыть панель администратора на внешней стороне сайта для всех или некоторых "
+"ролей пользователей."
+
+#: classes/class-settings-sections-fields.php:612
+msgid ""
+"Clean up and speed up the dashboard by completely disabling some or all "
+"widgets. Disabled widgets won't load any assets nor show up under Screen "
+"Options."
+msgstr ""
+"Очистите и ускорьте панель инструментов, полностью отключив некоторые или "
+"все виджеты. Отключенные виджеты не будут загружать никакие ресурсы и не "
+"будут отображаться в Параметрах экрана."
+
+#: classes/class-settings-sections-fields.php:602
+msgid "Disable Dashboard Widgets"
+msgstr "Отключить виджеты панели инструментов"
+
+#: classes/class-settings-sections-fields.php:591
+msgid ""
+"Clean up admin pages by moving notices into a separate panel easily "
+"accessible via the admin bar."
+msgstr ""
+"Очистите страницы администратора, переместив уведомления в отдельную панель, "
+"доступную через панель администратора."
+
+#: classes/class-settings-sections-fields.php:581
+msgid "Hide Admin Notices"
+msgstr "Скрыть уведомления администратора"
+
+#: classes/class-settings-sections-fields.php:570
+msgid "Remove the Help tab and drawer"
+msgstr "Удалить вкладку и панель помощи"
+
+#: classes/class-settings-sections-fields.php:553
+msgid "Remove 'Howdy'"
+msgstr "Удалить 'Привет'"
+
+#: classes/class-settings-sections-fields.php:536
+msgid "Remove new content menu"
+msgstr "Удалить меню нового контента"
+
+#: classes/class-settings-sections-fields.php:519
+msgid "Remove comments counter/link"
+msgstr "Удалить счетчик/ссылку комментариев"
+
+#: classes/class-settings-sections-fields.php:502
+msgid "Remove updates counter/link"
+msgstr "Удалить счетчик/ссылку обновлений"
+
+#: classes/class-settings-sections-fields.php:485
+msgid "Remove customize menu"
+msgstr "Удалить меню настройки"
+
+#: classes/class-settings-sections-fields.php:468
+msgid "Remove WordPress logo/menu"
+msgstr "Удалить логотип/меню WordPress"
+
+#: classes/class-settings-sections-fields.php:449
+msgid "Remove various elements from the admin bar."
+msgstr "Удалить различные элементы с панели администратора."
+
+#: classes/class-settings-sections-fields.php:439
+msgid "Clean Up Admin Bar"
+msgstr "Очистить панель администратора"
+
+#: classes/class-settings-sections-fields.php:427
+msgid ""
+"Trigger publishing of scheduled posts of all types marked with \"missed "
+"schedule\", anytime the site is visited."
+msgstr ""
+"Запуск публикации запланированных записей всех типов, отмеченных как "
+"\"пропущенный график\", при каждом посещении сайта."
+
+#: classes/class-settings-sections-fields.php:417
+msgid "Auto-Publish Posts with Missed Schedule"
+msgstr "Автопубликация записей с пропущенным графиком"
+
+#: classes/class-settings-sections-fields.php:406
+msgid ""
+"Allow custom navigation menu items to have links that open in new browser "
+"tab via target=\"_blank\" attribute. The rel=\"noopener noreferrer "
+"nofollow\" attribute will also be added for enhanced security and SEO "
+"benefits."
+msgstr ""
+"Разрешить пунктам пользовательского навигационного меню иметь ссылки, "
+"которые открываются в новой вкладке браузера через атрибут "
+"target=\"_blank\". Также будет добавлен атрибут rel=\"noopener noreferrer "
+"nofollow\" для повышения безопасности и SEO."
+
+#: classes/class-settings-sections-fields.php:396
+msgid "Allow Custom Navigation Menu Items to Open in New Tab"
+msgstr ""
+"Разрешить пунктам пользовательского навигационного меню открываться в новой "
+"вкладке"
+
+#: classes/class-settings-sections-fields.php:385
+msgid ""
+"Force all links to external sites in post content, where <a "
+"href=\"https://developer.wordpress.org/reference/hooks/the_content/\" "
+"target=\"_blank\">the_content</a> hook is used, to open in new browser tab "
+"via target=\"_blank\" attribute. The rel=\"noopener noreferrer nofollow\" "
+"attribute will also be added for enhanced security and SEO benefits."
+msgstr ""
+"Принудительно открыть все ссылки на внешние сайты в содержимом записи, где "
+"используется хук <a "
+"href=\"https://developer.wordpress.org/reference/hooks/the_content/\" "
+"target=\"_blank\">the_content</a>, в новой вкладке браузера через атрибут "
+"target=\"_blank\". Атрибут rel=\"noopener noreferrer nofollow\" также будет "
+"добавлен для повышения безопасности и SEO."
+
+#: classes/class-settings-sections-fields.php:375
+msgid "Open All External Links in New Tab"
+msgstr "Открывать все внешние ссылки в новой вкладке"
+
+#: classes/class-settings-sections-fields.php:339
+msgid ""
+"Enable pages, posts and/or custom post types to have permalinks that point "
+"to external URLs. The rel=\"noopener noreferrer nofollow\" attribute will "
+"also be added for enhanced security and SEO benefits. Compatible with links "
+"added using <a href=\"https://wordpress.org/plugins/page-links-to/\" "
+"target=\"_blank\">Page Links To</a>."
+msgstr ""
+"Разрешить страницам, записям и/или пользовательским типам записей иметь "
+"постоянные ссылки, указывающие на внешние URL. Атрибут rel=\"noopener "
+"noreferrer nofollow\" также будет добавлен для повышения безопасности и SEO. "
+"Совместимо с ссылками, добавленными с помощью плагина <a "
+"href=\"https://wordpress.org/plugins/page-links-to/\" target=\"_blank\">Page "
+"Links To</a>."
+
+#: classes/class-settings-sections-fields.php:329
+msgid "External Permalinks"
+msgstr "Внешние постоянные ссылки"
+
+#: classes/class-settings-sections-fields.php:261
+msgid ""
+"Allow some or all user roles to upload SVG files, which will then be "
+"sanitized to keep things secure."
+msgstr ""
+"Разрешить некоторым или всем ролям пользователей загружать файлы SVG, "
+"которые будут очищены для обеспечения безопасности."
+
+#: classes/class-settings-sections-fields.php:251
+msgid "SVG Upload"
+msgstr "Загрузка SVG"
+
+#: classes/class-settings-sections-fields.php:1040
+msgid ""
+"Re-enable infinite scrolling in the grid view of the media library. Useful "
+"for scrolling through a large library."
+msgstr ""
+"Включить бесконечную прокрутку в виде сетки медиабиблиотеки. Полезно для "
+"просмотра большого объема медиаконтента."
+
+#: classes/class-settings-sections-fields.php:1040
+msgid "Media Library Infinite Scrolling"
+msgstr "Бесконечная прокрутка медиабиблиотеки"
+
+#: classes/class-settings-sections-fields.php:242
+msgid ""
+"Easily replace any type of media file with a new one while retaining the "
+"existing media ID, publish date and file name. So, no existing links will "
+"break."
+msgstr ""
+"Легко замените любой тип медиафайла новым, сохранив существующий ID медиа, "
+"дату публикации и имя файла. Таким образом, существующие ссылки не будут "
+"нарушены."
+
+#: classes/class-settings-sections-fields.php:232
+msgid "Media Replacement"
+msgstr "Замена медиафайлов"
+
+#: classes/class-settings-sections-fields.php:194
+msgid ""
+"Enable custom ordering of various \"hierarchical\" content types or those "
+"supporting \"page attributes\". A new 'Order' sub-menu will appear for "
+"enabled content type(s). The \"All {Posts}\" list page for enabled post "
+"types in wp-admin will automatically use the custom order."
+msgstr ""
+"Включить пользовательскую сортировку различных «иерархических» типов "
+"контента или тех, которые поддерживают «атрибуты страницы». Для включенных "
+"типов контента появится новое подменю «Порядок». Страница списка «Все "
+"{записи}» для включенных типов записей в wp-admin автоматически будет "
+"использовать пользовательский порядок."
+
+#: classes/class-settings-sections-fields.php:184
+msgid "Content Order"
+msgstr "Порядок контента"
+
+#: classes/class-settings-sections-fields.php:173
+msgid "List view"
+msgstr "Представление списка"
+
+#: classes/class-settings-sections-fields.php:172
+msgid "Edit screen"
+msgstr "Экран редактирования"
+
+#: classes/class-settings-sections-fields.php:162
+msgid "After duplication, redirect to:"
+msgstr "После дублирования перенаправить на:"
+
+#: classes/class-settings-sections-fields.php:152
+msgid ""
+"Enable one-click duplication of pages, posts and custom posts. The "
+"corresponding taxonomy terms and post meta will also be duplicated."
+msgstr ""
+"Включить дублирование страниц, записей и пользовательских записей в один "
+"клик. Соответствующие таксономические термины и метаданные записей также "
+"будут дублированы."
+
+#: classes/class-settings-sections-fields.php:142
+msgid "Content Duplication"
+msgstr "Дублирование контента"
+
+#: classes/class-settings-fields-render.php:1102
+msgid ""
+"Full AVIF support requires that your server / hosting has <a "
+"href=\"https://php.watch/versions/8.1/gd-avif\" target=\"_blank\">GD "
+"extension</a> compiled with AVIF support in PHP 8.1 or greater, or, <a "
+"href=\"https://web.archive.org/web/20240104012918/https://avif.io/blog/tutorials/imagemagick/\" "
+"target=\"_blank\">ImageMagick 7.0.25 or greater</a> installed. Without "
+"either, you can still upload AVIF files but without auto-generation of the "
+"smaller thumbnail sizes. A majority of <a "
+"href=\"https://web.archive.org/web/20231207174740/https://avif.io/blog/articles/avif-browser-support/\" "
+"target=\"_blank\">modern desktop and mobile browsers</a> support the display "
+"of AVIF files."
+msgstr ""
+"Полная поддержка AVIF требует, чтобы на вашем сервере / хостинге был "
+"установлен <a href=\"https://php.watch/versions/8.1/gd-avif\" "
+"target=\"_blank\">GD расширение</a> с поддержкой AVIF в PHP версии 8.1 или "
+"выше, либо <a "
+"href=\"https://web.archive.org/web/20240104012918/https://avif.io/blog/tutorials/imagemagick/\" "
+"target=\"_blank\">ImageMagick 7.0.25 или выше</a>. Без этого вы все равно "
+"можете загружать файлы AVIF, но без автоматической генерации меньших "
+"миниатюр. Большинство <a "
+"href=\"https://web.archive.org/web/20231207174740/https://avif.io/blog/articles/avif-browser-support/\" "
+"target=\"_blank\">современных браузеров для настольных ПК и мобильных "
+"устройств</a> поддерживают отображение AVIF."
+
+#: classes/class-settings-fields-render.php:1096
+msgid "AVIF Support Status"
+msgstr "Статус поддержки AVIF"
+
+#: classes/class-settings-fields-render.php:1072
+#: classes/class-settings-fields-render.php:1093
+msgid "Not available"
+msgstr "Недоступно"
+
+#: classes/class-settings-fields-render.php:1067
+msgid "without AVIF support"
+msgstr "без поддержки AVIF"
+
+#: classes/class-settings-fields-render.php:1065
+msgid "with AVIF support"
+msgstr "с поддержкой AVIF"
+
+#: classes/class-settings-fields-render.php:1004
+msgid "Last Attempt On"
+msgstr "Последняя попытка"
+
+#: classes/class-settings-fields-render.php:1001
+msgid "Attempts<br />Lockouts"
+msgstr "Попытки<br />Блокировки"
+
+#: classes/class-settings-fields-render.php:998
+msgid "IP Address<br />Last Username"
+msgstr "IP-адрес<br />Последнее имя пользователя"
+
+#: classes/class-settings-fields-render.php:708
+#: classes/class-settings-fields-render.php:821
+#: classes/class-settings-fields-render.php:911
+msgid "Hide until toggled"
+msgstr "Скрыть до переключения"
+
+#: classes/class-settings-fields-render.php:599
+msgid ""
+"Drag and drop menu items to the desired position. Optionally change 3rd "
+"party plugin/theme's menu item titles or hide some items until toggled by "
+"clicking \"Show All\" at the bottom of the admin menu."
+msgstr ""
+"Перетащите элементы меню в желаемую позицию. При необходимости измените "
+"названия пунктов меню сторонних плагинов/тем или скройте некоторые элементы "
+"до переключения, нажав \"Показать все\" внизу меню администратора."
+
+#: classes/class-settings-sections-fields.php:1209
+msgid "e.g. backend"
+msgstr "например, backend"
+
+#. Author URI of the plugin
+#: admin-site-enhancements.php
+msgid "https://www.wpase.com/author-uri"
+msgstr "https://www.wpase.com/author-uri"
+
+#. Author of the plugin
+#: admin-site-enhancements.php
+msgid "wpase.com"
+msgstr "wpase.com"
+
+#. Plugin URI of the plugin
+#: admin-site-enhancements.php
+msgid "https://www.wpase.com/plugin-uri"
+msgstr "https://www.wpase.com/plugin-uri"
+
+#. translators: %s: User's display name.
+#: classes/class-admin-columns-manager.php:168
+msgid "Saving is disabled: %s is currently editing this page."
+msgstr "Сохранение отключено: %s в данный момент редактирует эту страницу."
+
+#. translators: %s: User's display name.
+#: classes/class-admin-columns-manager.php:165
+msgid "Saving is disabled: %s is currently editing this post."
+msgstr "Сохранение отключено: %s в данный момент редактирует эту запись."
+
+#: classes/class-admin-columns-manager.php:163
+msgid "Someone"
+msgstr "Кто-то"
+
+#: classes/class-admin-columns-manager.php:157
+msgid "Sorry, you are not allowed to edit this post."
+msgstr "Извините, у вас нет прав на редактирование этой записи."
+
+#: classes/class-admin-columns-manager.php:153
+msgid "Sorry, you are not allowed to edit this page."
+msgstr "Извините, у вас нет прав на редактирование этой страницы."
+
+#. Plugin Name of the plugin
+#: admin-site-enhancements.php
+msgid "Admin and Site Enhancements (ASE)"
+msgstr "Admin and Site Enhancements (ASE)"
+
+#: settings.php:92
+msgid "Translate"
+msgstr "Перевести"
+
+#: settings.php:89
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: settings.php:86
+msgid "Review"
+msgstr "Отзыв"
+
+#. Description of the plugin
+#: admin-site-enhancements.php
+msgid ""
+"Easily enable enhancements and features that usually require multiple "
+"plugins."
+msgstr ""
+"Легко используйте расширения и функции, которые обычно требуют нескольких "
+"плагинов."

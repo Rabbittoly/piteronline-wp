@@ -1,0 +1,849 @@
+.ruby-submission-dashboard * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.no-overflow {
+    overflow: clip;
+}
+
+.rbsm-card {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+
+.rbsm-mini-card {
+    margin: 0 0 10px 0;
+    padding: 8px 24px 16px;
+    border: 1px solid #8882;
+    border-radius: 5px;
+}
+
+.v-card-title {
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0;
+    gap: 5px;
+}
+
+.rbsm-black-btn {
+    font-weight: 600;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #000;
+    gap: 5px;
+}
+
+.rbsm-white-btn {
+    font-weight: 600;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: transparent;
+    gap: 5px;
+}
+
+.rbsm-white-btn:hover {
+    color: #fff;
+    border-color: #000;
+    background: #000;
+}
+
+.rbsm-delete-customfield {
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.rbsm-btn-red:hover {
+    color: #f00;
+    border-color: #ffdede;
+    background: #ffdede;
+}
+
+#rbsm-form-title-input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #ababab !important;
+    border-radius: 5px;
+}
+
+.rbsm-text-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px !important;
+    color: #3e3e3e !important;
+    border: 1px solid #ababab !important;
+    border-radius: 5px;
+}
+
+.rbsm-text-input:focus,
+#rbsm-form-title-input:focus,
+.rbsm-text-area:focus {
+    border: 1px solid #000 !important;
+    box-shadow: 0 0 0 0 #000 !important;
+}
+
+.rbsm-text-area {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+}
+
+.rbsm-transition {
+    transition: all 0.3s ease;
+}
+
+.rbsm-green {
+    color: #42b978;
+}
+
+.rbsm-access-btn:hover {
+    color: #000;
+    border-color: #68e58d;
+    background-color: #68e58d;
+}
+
+.rbsm-normal-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#rbsm-form-title-input::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.rbsm-expansion-panel {
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.rbsm-top-border {
+    margin-top: 10px !important;
+    padding-top: 20px !important;
+    border-top: 1px solid #8884;
+}
+
+.rbsm-select .v-input {
+    --v-input-control-height: 40px;
+    --v-input-padding-top: 8px;
+}
+
+.v-field__input {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.v-label {
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+.rbsm-autocomplete .v-fieldset {
+    border: 2px solid #8882 !important;
+    border-radius: 6px;
+    --v-field-border-width: 0 !important;
+}
+
+.rbsm-autocomplete .v-field__outline:focus {
+    border: none !important;
+    border-color: green !important;
+}
+
+.rbsm-checkbox-style {
+    display: flex;
+    align-items: center;
+    width: 46px;
+    height: 26px;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+    border: 1px solid #8884;
+    border-radius: 26px;
+    background-color: #fff;
+}
+
+.rbsm-import-checkbox i {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+.rbsm-import-checkbox input:checked+span i {
+    margin-left: 22px;
+    background-color: #fff;
+}
+
+.rbsm-import-checkbox input:checked+span {
+    border-color: #42b978;
+    background-color: #42b978;
+}
+
+.rbsm-import-checkbox input[type='checkbox'] {
+    display: none;
+}
+
+.rbsm-checkbox {
+    display: flex;
+    flex-flow: row !important;
+    justify-content: flex-start !important;
+    cursor: pointer;
+    border-top: 0 solid #8882 !important;
+}
+
+.rbsm-container {
+    width: 100%;
+    max-width: 1420px;
+    padding: 0 20px 0 20px;
+}
+
+.rbsm-app {
+    background-color: #f0f0f1;
+}
+
+.rbsm-fullwidth {
+    width: 100%;
+}
+
+.rbsm-settings-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    white-space: nowrap;
+    letter-spacing: -0.02em;
+}
+
+.rbsm-settings-title i {
+    font-size: 1.25em;
+}
+
+.rbsm-setting-properties-title,
+.rbsm-setting-properties-title-2,
+.rbsm-setting-properties-title-3 {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0 5px 0;
+    gap: 5px;
+}
+
+.rbsm-setting-icon {
+    font-size: 1.3em;
+}
+
+.rbsm-setting-properties-content,
+.rbsm-setting-properties-content-2,
+.rbsm-setting-properties-content-3 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 480px;
+}
+
+.rbsm-footer {
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 2px solid #000;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+
+.rbsm-vtab-title {
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    text-transform: none;
+}
+
+.v-tab__slider {
+    height: 5px !important;
+}
+
+.rbsm-autocomplete .v-chip {
+    font-weight: 600;
+    color: #42b978 !important;
+    background-color: #42b97811 !important;
+}
+
+.rbsm-admin-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    letter-spacing: -0.03em;
+    gap: 7px;
+}
+
+.rbsm-admin-title svg {
+    width: 1em;
+}
+
+.rbsm-v-tabs .v-btn__content {
+    font-size: 16px;
+    gap: 5px;
+}
+
+.rbsm-btn {
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.rbsm-creation-btn {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    padding: 5px 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #000;
+    border: 1px solid #6ded84;
+    outline: none;
+    background: #6ded84;
+    box-shadow: none;
+    gap: 5px;
+}
+
+.rbsm-creation-btn.is-cancel {
+    color: #000;
+    border-color: #8884;
+    background: transparent;
+}
+
+.rbsm-creation-btn i {
+    font-size: 1em;
+}
+
+.rbsm-creation-btn:hover {
+    color: #fff;
+    border-color: #000;
+    background: #000;
+}
+
+.rbsm-settings-input {
+    padding: 0;
+}
+
+.rbsm-form-name {
+    font-size: 15px;
+    margin: 0;
+}
+
+.rbsm-form-name i {
+    margin-right: 3px;
+}
+
+.rbsm-form-code {
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    cursor: text;
+    color: rgb(66, 185, 120);
+    border-radius: 3px;
+    background-color: rgba(66, 185, 120, 0.067);
+}
+
+.rbsm-checkbox-layout {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#rbsm-footer-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 7px;
+}
+
+#rbsm-footer-btn button {
+    min-width: 150px;
+}
+
+#rbsm-form-setting-title {
+    font-size: 25px;
+    margin: 0;
+}
+
+.rbsm-add-new-form-btn {
+    font-size: 20px;
+    width: 460px;
+    height: 70px;
+}
+
+.rbsm-title-no-form {
+    font-size: 20px;
+}
+
+.rbsm-introduce-right {
+    padding-left: 40px;
+}
+
+.rbsm-introduce-right img {
+    display: flex;
+    width: 100px;
+}
+
+.rbsm-v-tabs {
+    z-index: 10;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    --v-tabs-height: 50px;
+}
+
+.rb-v-tabs .v-card {
+    border-radius: 0;
+}
+
+.rb-v-tabs .v-card--variant-elevated {
+    box-shadow: none;
+}
+
+.rb-v-tabs .v-btn__content {
+    padding: 0 20px;
+}
+
+.v-btn--variant-text .v-btn__overlay {
+    background: #42b978 !important;
+}
+
+.rbsm-card-center {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin-top: 10px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.rbsm-card-title-center {
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 0;
+    gap: 20px;
+}
+
+.rbsm-tagline {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.rbsm-create-form-wrap {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.rbsm-big-input-wrap {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+input.rbsm-big-input {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 20px;
+    border: 1px solid #8884;
+    border-radius: 5px;
+}
+
+input.rbsm-big-input:hover,
+input.rbsm-big-input:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.rbsm-card-heading {
+    display: flex;
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+.rbsm-card-heading i {
+    font-size: 1em;
+}
+
+.rbsm-card-title {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    color: #000;
+    border-bottom: 2px solid;
+    gap: 5px;
+}
+
+.rbsm-card-title.no-border {
+    border-bottom: none;
+}
+
+.rbsm-divider {
+    margin-top: 15px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.75);
+}
+
+#rbsm-introduce-card-settings {
+    margin-bottom: -1px;
+    padding: 40px 40px 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: none !important;
+}
+
+#rbsm-tab-title {
+    max-width: 1380px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+#rbsm-shortcode-text {
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    padding: 7px;
+    color: #42b978;
+    border-radius: 5px;
+    background-color: #42b97811;
+}
+
+#rbsm-sync-data-btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.v-expansion-panel-title__overlay {
+    background: #42b978;
+}
+
+.rbsm-current-form {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 15px 20px;
+    border-left: 5px solid #000;
+    gap: 20px;
+}
+
+.rb-current-form-label {
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    letter-spacing: 0;
+    gap: 5px;
+}
+
+.rb-current-form-label span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rb-current-form-label i {
+    color: #42b978;
+}
+
+.rb-current-form-label h3 {
+    margin: 0;
+}
+
+.rbsm-current-form-selection {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 30%;
+    gap: 7px;
+}
+
+/** dropdown */
+.v-list-item--density-default {
+    min-height: 40px;
+}
+
+.v-select__content {
+    box-shadow: 1px 4px 20px #0001;
+}
+
+.v-list-item-title {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.v-list-item__overlay {
+    background: #42b978 !important;
+}
+
+.rbsm-settings-list {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #8882;
+    border-radius: 5px;
+}
+
+.rbsm-shortcode-helper {
+    border-left: 5px solid #000;
+}
+
+.rbsm-shortcode-helper i {
+    font-size: 26px;
+}
+
+.rbsm-row-settings,
+.rbsm-row-settings-2,
+.v-row.rbsm-row-settings,
+.v-row.rbsm-row-settings-2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.v-expansion-panel-text__wrapper .v-expansion-panel-text__wrapper {
+    padding: 0;
+}
+
+.rbsm-mini-expansion-panel .v-expansion-panel--active+.v-expansion-panel,
+.rbsm-mini-expansion-panel .v-expansion-panel--active:not(:first-child) {
+    margin-top: 0;
+}
+
+.rbsm-mini-expansion-panel {
+    margin: -10px 0;
+}
+
+.rbsm-popup-box .v-card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+}
+
+.rbsm-popup-box .v-card-text {
+    font-size: 16px !important;
+    letter-spacing: 0 !important;
+}
+
+.rbsm-popup-box .v-card-actions .v-btn__content {
+    font-size: 15px;
+    padding: 0 7px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+.rbsm-form-actions {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.rbsm-form-actions button {
+    line-height: 42px;
+    width: 100%;
+}
+
+.rbsm-snackbar-container {
+    position: relative;
+}
+
+.rbsm-snackbar .v-snackbar__wrapper {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    color: #468847;
+    background-color: #dff0d8;
+}
+
+.rbsm-failed-snackbar .v-snackbar__wrapper {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    color: #FF0000;
+    background-color: #FFDEDE;
+}
+
+.v-snackbar--variant-elevated {
+    box-shadow: 0 4px 10px #8882;
+}
+
+.rbsm-final-setting-row {
+    margin-bottom: 40px;
+}
+
+.rbsm-row-select {
+    margin-bottom: 10px !important;
+}
+
+.rbsm-loading-icon {
+    animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1024px) {
+    .rbsm-tagline {
+        font-size: 15px;
+    }
+
+    .rbsm-current-form-selection {
+        width: 100%;
+    }
+
+    .rbsm-settings-input {
+        padding-top: 15px;
+    }
+
+    .rbsm-checkbox-layout {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #rbsm-form-setting-title {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .rbsm-add-new-form-btn {
+        font-size: 20px;
+        width: 460px;
+        height: 70px;
+    }
+
+    .rbsm-title-no-form {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rbsm-form-actions {
+        margin-top: 15px !important;
+    }
+
+    #rbsm-introduce-card-settings {
+        flex-flow: column-reverse nowrap;
+        padding: 20px 20px 0;
+    }
+
+    .rbsm-introduce-right {
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .rbsm-introduce-right img {
+        width: 75px;
+    }
+
+    .rbsm-admin-title {
+        font-size: 26px;
+    }
+
+    .rbsm-card-title-center {
+        font-size: 26px;
+        gap: 10px;
+    }
+
+    .rbsm-card-center {
+        padding: 40px;
+    }
+
+    .rbsm-creation-btn {
+        font-size: 18px;
+        line-height: 42px;
+        width: 100%;
+        min-width: auto;
+    }
+
+    .rbsm-settings-input {
+        padding-top: 15px;
+    }
+
+    .rbsm-checkbox-layout {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #rbsm-form-setting-title {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .rbsm-add-new-form-btn {
+        font-size: 10px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .rbsm-title-no-form {
+        font-size: 15px;
+    }
+
+    #rbsm-footer-btn {
+        justify-content: center;
+    }
+
+    #rbsm-footer-btn button {
+        width: 100%;
+    }
+}

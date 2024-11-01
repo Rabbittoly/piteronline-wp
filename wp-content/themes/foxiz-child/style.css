@@ -1,0 +1,496 @@
+/*
+Theme Name:     Foxiz child
+Template:      	foxiz
+Theme URI:      https://foxiz.themeruby.com
+Author:         Theme-Ruby
+Author URI:     https://themeforest.net/user/theme-ruby/portfolio/
+Description:    Make your modifications to Foxiz in this child theme.
+Version:        1.0
+Tags:           custom-background, custom-menu, featured-images, theme-options, custom-colors, translation-ready, threaded-comments, translation-ready
+License:        Themeforest Licence
+License URI:    https://themeforest.net/licenses/standard
+*/
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+.rbct .wp-block-button a.wp-block-button__link {
+  color: #ffffff;
+  background-color: #00ab8f;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 171, 143, 0);
+}
+
+.rbct .wp-block-button a.wp-block-button__link:hover {
+  background-color: #00ab8f; /* Оставляем тот же цвет */
+  transform: scale(1.05); /* Увеличиваем размер на 5% */
+}
+
+hr.wp-block-separator:not(.is-style-dots):not(.is-style-wide) {
+  border: none;
+  height: 3px; /* Устанавливаем высоту линии */
+  margin: 2.5rem auto; /* Устанавливаем вертикальные отступы и центрируем горизонтально */
+  max-width: 90%; /* Устанавливаем максимальную ширину */
+  background-color: var(--body-fcolor);
+  box-shadow: none; /* Убираем тень */
+}
+
+
+
+/***** readblogmore *****/
+
+.readblogmore {
+  padding: 80px 50px 50px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 190px;
+  color: #333;
+  background-color: #FFF4E8;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: var(--round-3);
+}
+
+.readblogmore:before {
+  position: absolute;
+  top: 18px;
+  left: -15px;
+  content: "";
+  width: 170px;
+  height: 40px;
+  background-color: #e2223f;
+  padding: 8px 15px;
+  border-radius: var(--round-3);
+  transform: skewX(-25deg);
+}
+
+.readblogmore:after {
+  font-family: var(--cat-family);
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "Читайте также";
+  color: white;
+  letter-spacing: var(--cat-fspace);
+  text-transform: var(--cat-transform);
+  font-size: 16px;
+}
+
+.readblogmore a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.readblogmore a:hover {
+  text-decoration: underline;
+}
+
+.readblogmore li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+[data-theme="dark"] .readblogmore {
+  background-color: #01694f;
+  color: var(--body-fcolor);
+  box-shadow: 0 5px 20px var(--shadow-7);
+}
+
+[data-theme="dark"] .readblogmore a {
+  color: var(--body-fcolor);
+}
+
+[data-theme="dark"] .readblogmore a:hover {
+  text-decoration: underline;
+  transition: all .25s var(--timing);
+  opacity: .7;
+  color: var(--awhite);
+}
+
+@media (max-width: 640px) {
+  .readblogmore {
+    padding: 35px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+  }
+
+  .readblogmore:before {
+    top: -22px;
+    left: 20px;
+    width: 160px; 
+    height: 35px;
+  }
+
+  .readblogmore:after {
+    top: -15px;
+    left: 40px;
+    font-size: 14px; 
+  }
+
+  .readblogmore li {
+    padding-left: 5px;
+  }
+}
+
+
+/***** readblogmore END *****/
+
+
+
+/*.wp-block-button__link {
+    background-color: #00ab8f;
+    transition: background-color 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+    color: #fff;
+    background-color: #00806e;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+}*/
+/* Скрытие title реакций (реакции на английском и перевод не умещается)*/
+.reaction .reaction-title {
+    display: none;
+}
+
+
+
+/***\\\\\\\\\\\\\\\\\\\\\***/
+/* Общий стиль для popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: var(--round-5, 8px);
+    background-color: var(--toc-bg, #fff);
+    box-shadow: 0 5px 30px var(--shadow-7, rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+
+.popup-content h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.popup-content button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--link-color, #333);
+    background: var(--button-bg, #f0f0f0);
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: var(--round-5, 8px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup-content button:hover {
+    background: var(--button-hover-bg, #e0e0e0);
+}
+
+/* Темная тема */
+[data-theme="dark"] .popup-content {
+    background-color: var(--dark-accent, #333);
+    box-shadow: 0 5px 20px var(--shadow-7, rgba(255, 255, 255, 0.1));
+}
+
+[data-theme="dark"] .popup-content button {
+    color: var(--body-fcolor, #fff);
+    background: var(--button-bg-dark, #444);
+    border: 1px solid var(--border-color-dark, #555);
+}
+
+[data-theme="dark"] .popup-content button:hover {
+    background: var(--button-hover-bg-dark, #555);
+    opacity: 0.8;
+}
+
+
+/* Стиль окна SweetAlert2 */
+
+@media (max-width: 768px) {
+    .swal2-popup {
+        transform: translateY(30%) !important; /* Сдвиг вниз на 20% на мобильных устройствах */
+    padding: 20px !important;
+    border-radius: var(--round-5, 8px) !important;
+    background-color: var(--toc-bg, #fff) !important;
+    box-shadow: 0 5px 30px var(--shadow-7, rgba(0, 0, 0, 0.2)) !important;
+    width: 90% !important;
+    max-width: 400px !important;
+    margin: auto !important; /* Центрируем модальное окно */
+}
+}
+
+/* Выравнивание кнопок и заголовка */
+.swal2-title {
+    margin-bottom: 5px !important;
+    font-weight: 700 !important;
+    font-size: 28px;
+}
+
+.swal2-actions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px !important;
+}
+
+.swal2-actions button {
+    display: block;
+    width: 100%;
+    padding: 15px 40px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff; /* Белый цвет текста */
+    background-color: #38a392; /* Основной цвет фона кнопки */
+    border: 1px solid #38a392; /* Обводка такого же цвета */
+    border-radius: var(--round-5, 8px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Эффект при наведении для светлой темы */
+.swal2-actions button:hover {
+    background-color: #009b8d; /* Темнее основной цвет */
+}
+
+/* Темная тема */
+[data-theme="dark"] .swal2-popup {
+    background-color: var(--dark-accent, #333) !important;
+    box-shadow: 0 5px 20px var(--shadow-7, rgba(255, 255, 255, 0.1)) !important;
+}
+
+[data-theme="dark"] .swal2-actions button {
+    color: var(--body-fcolor, #fff);
+    background: var(--button-bg-dark, #444);
+    border: 1px solid var(--border-color-dark, #555);
+}
+
+[data-theme="dark"] .swal2-actions button:hover {
+    background: var(--button-hover-bg-dark, #555);
+    opacity: 0.8;
+}
+
+/* Основной блок для всей информации */
+.place-info-block {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: var(--round-5);
+  background-color: var(--toc-bg, transparent);
+  box-shadow: 0 5px 30px var(--shadow-7);
+  --bottom-spacing: 0;
+}
+
+/* Ссылки внутри .place-info-block */
+.place-info-block a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.place-info-block a:hover {
+  text-decoration: underline;
+  color: var(--accent-color, #ff6600);
+}
+
+/* Стили для всех списков внутри блока */
+.place-info-list,
+.work-schedule-list {
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Убирает маркеры списка */
+}
+
+/* Общие стили для элементов списка */
+.place-info-item,
+.work-schedule-item {
+  display: flex;           /* Используем Flexbox для выравнивания */
+  align-items: center;     /* Центрируем элементы по вертикали */
+  margin: 10px;
+}
+
+/* Стили иконок */
+.place-info-item .fas,
+.work-schedule-item .fas {
+  margin-right: 8px;       /* Отступ между иконкой и текстом */
+  color: var(--accent-color, #ff6600);
+  font-size: 18px;         /* Размер иконки */
+}
+
+/* Для иконок с классом fa-wallet и fa-phone */
+.place-info-item .fa-wallet,
+.place-info-item .fa-phone {
+  margin-right: 10px;
+  color: var(--accent-color, #ff6600);
+}
+
+/* Для иконок в work-schedule */
+.work-schedule-item .fa-clock {
+  margin-right: 10px;
+  color: var(--accent-color, #ff6600);
+}
+
+/* Стили для ссылок на адреса */
+.address-link {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.address-link:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+/* Стили для элементов телефона */
+.phone-link {
+  color: var(--accent-color, #ff6600);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+}
+
+/* Темная тема */
+[data-theme="dark"] .place-info-block {
+  background-color: var(--toc-bg, var(--dark-accent));
+  box-shadow: 0 5px 20px var(--shadow-7);
+}
+
+[data-theme="dark"] .place-info-item .fas,
+[data-theme="dark"] .work-schedule-item .fas {
+  color: var(--awhite);
+}
+
+[data-theme="dark"] .place-info-block a,
+[data-theme="dark"] .address-link,
+[data-theme="dark"] .phone-link {
+  color: var(--body-fcolor);
+}
+
+[data-theme="dark"] .place-info-block a:hover,
+[data-theme="dark"] .address-link:hover,
+[data-theme="dark"] .phone-link:hover {
+  color: var(--awhite);
+  opacity: 0.7;
+  transition: all 0.25s var(--timing);
+}
+
+
+
+/* Общие стили для обеих тем */
+.wpcf7-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;  /* Отступ между полями 10px */
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;    /* Основная граница */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;         /* Ограничение ширины */
+    box-sizing: border-box;
+}
+
+/* Светлая тема */
+[data-theme="light"] .wpcf7-form input[type="text"],
+[data-theme="light"] .wpcf7-form input[type="email"],
+[data-theme="light"] .wpcf7-form textarea {
+    background-color: #fff;   /* Белый фон для полей */
+    color: #333;              /* Темный текст */
+    border: 1px solid #bbb;   /* Светлая граница */
+}
+
+[data-theme="light"] .wpcf7-form textarea {
+    height: 200px;            /* Высота поля комментария 400px */
+}
+
+[data-theme="light"] .wpcf7-form input::placeholder,
+[data-theme="light"] .wpcf7-form textarea::placeholder {
+    color: #888;              /* Цвет плейсхолдера */
+}
+
+[data-theme="light"] .wpcf7-submit {
+    background-color: #4CAF50; /* Зеленая кнопка */
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 356px;
+}
+
+[data-theme="light"] .wpcf7-submit:hover {
+    background-color: #388E3C; /* Более темный цвет при наведении */
+}
+
+/* Темная тема */
+[data-theme="dark"] .wpcf7-form input[type="text"],
+[data-theme="dark"] .wpcf7-form input[type="email"],
+[data-theme="dark"] .wpcf7-form textarea {
+    background-color: #2b2b2b; /* Темный фон для полей */
+    color: #fff;               /* Белый текст */
+    border: 1px solid #444;    /* Темная граница */
+}
+
+[data-theme="dark"] .wpcf7-form textarea {
+    height: 200px;             /* Высота поля комментария 400px */
+}
+
+[data-theme="dark"] .wpcf7-form input::placeholder,
+[data-theme="dark"] .wpcf7-form textarea::placeholder {
+    color: #aaa;               /* Светлый цвет плейсхолдера */
+}
+
+[data-theme="dark"] .wpcf7-submit {
+    background-color: #009688; /* Основной цвет кнопки */
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 356px;
+}
+
+[data-theme="dark"] .wpcf7-submit:hover {
+    background-color: #00796b; /* Цвет при наведении */
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/accordion-item",
+  "description": "Accordion item for Accordion block",
+  "version": "0.1.0",
+  "parent": [
+    "foxiz-elements/accordion"
+  ],
+  "title": "Accordion Item",
+  "category": "widgets",
+  "icon": "editor-justify",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingTag": {
+      "type": "string",
+      "default": ""
+    },
+    "tocAdded": {
+      "type": "boolean"
+    }
+  }
+}

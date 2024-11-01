@@ -1,0 +1,185 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/note",
+  "version": "0.1.0",
+  "title": "Note - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "Display note, notification with a collapsible button in post content.",
+  "supports": {
+    "html": false
+  },
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "notice",
+    "notification",
+    "note",
+    "info",
+    "warning",
+    "success"
+  ],
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Note"
+    },
+    "headingHTMLTag": {
+      "type": "string",
+      "default": "h4"
+    },
+    "tocAdded": {
+      "type": "boolean",
+      "default": false
+    },
+    "icon": {
+      "type": "string",
+      "default": "rbi-idea"
+    },
+    "customSVG": {
+      "type": "string",
+      "default": ""
+    },
+    "customSVGAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "toggle": {
+      "type": "boolean",
+      "default": false
+    },
+    "widthStyle": {
+      "type": "string",
+      "default": "fw"
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderWidth": {
+      "type": "object",
+      "default": {
+        "top": null,
+        "right": null,
+        "bottom": null,
+        "left": null
+      }
+    },
+    "borderRadius": {
+      "type": "number"
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headerBg": {
+      "type": "string",
+      "default": ""
+    },
+    "headingBorderColor": {
+      "type": "string",
+      "default": "#88888822"
+    },
+    "darkHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkHeaderBg": {
+      "type": "string",
+      "default": ""
+    },
+    "darkHeadingBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "contentBg": {
+      "type": "string",
+      "default": ""
+    },
+    "darkContentBg": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopHeaderPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "30px",
+        "bottom": "15px",
+        "left": "30px"
+      }
+    },
+    "tabletHeaderPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "25px",
+        "bottom": "15px",
+        "left": "25px"
+      }
+    },
+    "mobileHeaderPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "20px",
+        "bottom": "15px",
+        "left": "20px"
+      }
+    },
+    "desktopPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "30px",
+        "bottom": "30px",
+        "left": "30px"
+      }
+    },
+    "tabletPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "25px",
+        "bottom": "25px",
+        "left": "25px"
+      }
+    },
+    "mobilePadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    }
+  }
+}

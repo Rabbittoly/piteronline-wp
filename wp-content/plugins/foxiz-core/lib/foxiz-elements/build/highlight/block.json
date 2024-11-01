@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/highlight",
+  "description": "Display text highlight in post content.",
+  "version": "0.1.0",
+  "title": "Text Highlight - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "typography": {
+      "fontSize": false,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalDefaultControls": {
+        "fontSize": false,
+        "lineHeight": true,
+        "fontAppearance": true,
+        "textTransform": true
+      }
+    }
+  },
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "highlight",
+    "bold",
+    "text"
+  ],
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "The Impressive Mobile-First Website Builder WordPress Theme"
+    },
+    "highlight": {
+      "type": "string",
+      "default": "Impressive"
+    },
+    "headingTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "textAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "tocAdded": {
+      "type": "boolean",
+      "default": false
+    },
+    "desktopHeadingSize": {
+      "type": "string",
+      "default": "42"
+    },
+    "tabletHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "highLightColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "highLightBg": {
+      "type": "string",
+      "default": "#ff6900"
+    },
+    "darkHighLightColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkHighLightBg": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

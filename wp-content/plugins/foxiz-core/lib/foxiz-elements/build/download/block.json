@@ -1,0 +1,185 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/download",
+  "version": "0.1.0",
+  "title": "Subscribe to Download - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "Show freebie download with email request, Mailchimp integration.",
+  "supports": {
+    "html": false
+  },
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "download",
+    "email",
+    "file",
+    "subscribe",
+    "mailchimp"
+  ],
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": "Free Download"
+    },
+    "headingHTMLTag": {
+      "type": "string",
+      "default": "h3"
+    },
+    "tocAdded": {
+      "type": "boolean",
+      "default": false
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": "Resource ready for free download! Sign up with your email to get instant access."
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkDescriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "image": {
+      "type": "string",
+      "default": ""
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopImageSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletImageSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileImageSize": {
+      "type": "string",
+      "default": ""
+    },
+    "file": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "Download Now"
+    },
+    "checkBoxText": {
+      "type": "string",
+      "default": "Subscribe to get exclusive content, you can unsubscribe anytime."
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderWidth": {
+      "type": "object",
+      "default": {
+        "top": null,
+        "right": null,
+        "bottom": null,
+        "left": null
+      }
+    },
+    "borderRadius": {
+      "type": "number"
+    },
+    "background": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopPadding": {
+      "type": "object",
+      "default": {
+        "top": "30px",
+        "right": "30px",
+        "bottom": "30px",
+        "left": "30px"
+      }
+    },
+    "tabletPadding": {
+      "type": "object",
+      "default": {
+        "top": "25px",
+        "right": "25px",
+        "bottom": "25px",
+        "left": "25px"
+      }
+    },
+    "mobilePadding": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    }
+  }
+}

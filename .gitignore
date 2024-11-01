@@ -1,0 +1,46 @@
+# Core WordPress
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+
+# Конфигурационные файлы WordPress
+wp-config.php
+
+# Themes & Plugins (example)
+wp-content/themes/twenty*/
+wp-content/plugins/hello.php
+
+# Медиаконтент и кэш (исключены для репозиториев)
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+
+# Caching Plugins
+wp-content/cache/
+wp-content/rocket-config/
+wp-content/wp-rocket-config/
+wp-content/uploads/autoptimize/
+
+# Env files
+.env
+.env.*
+
+# Composer and Node dependencies
+node_modules/
+vendor/
+composer-setup.php
+docker-compose.yml
+
+# Temporary files
+*.log
+*.bak
+*.tmp
+*.swp
+*.zip
+*.sql
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db

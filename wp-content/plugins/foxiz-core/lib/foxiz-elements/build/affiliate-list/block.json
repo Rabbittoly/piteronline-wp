@@ -1,0 +1,265 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "foxiz-elements/affiliate-list",
+  "version": "0.1.0",
+  "title": "Affiliate List - Ruby",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "Display an affiliate product in multiple marketplaces in a list.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "foxiz-core",
+  "editorScript": "file:./index.js",
+  "keywords": [
+    "ruby",
+    "foxiz",
+    "affiliate",
+    "amazon",
+    "ebay",
+    "product",
+    "item",
+    "list"
+  ],
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingHTMLTag": {
+      "type": "string",
+      "default": "h3"
+    },
+    "tocAdded": {
+      "type": "boolean",
+      "default": false
+    },
+    "desktopHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopSubHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletSubHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileSubHeadingSize": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkDescriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileDescriptionSize": {
+      "type": "string",
+      "default": ""
+    },
+    "bestPrice": {
+      "type": "string",
+      "default": ""
+    },
+    "bestPriceLabel": {
+      "type": "string",
+      "default": ""
+    },
+    "bestPriceLink": {
+      "type": "string",
+      "default": ""
+    },
+    "bestPriceColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBestPriceColor": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopBestPriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletBestPriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobileBestPriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "logoSize": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopPriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "tabletPriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "mobilePriceSize": {
+      "type": "string",
+      "default": ""
+    },
+    "priceColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkPriceColor": {
+      "type": "string",
+      "default": ""
+    },
+    "isButtonBorder": {
+      "type": "boolean",
+      "default": false
+    },
+    "desktopButtonSize": {
+      "type": "string",
+      "default": "12"
+    },
+    "tabletButtonSize": {
+      "type": "string",
+      "default": "12"
+    },
+    "mobileButtonSize": {
+      "type": "string",
+      "default": "12"
+    },
+    "buttonColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonBg": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonHoverBg": {
+      "type": "string",
+      "default": ""
+    },
+    "darkButtonColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkButtonBg": {
+      "type": "string",
+      "default": ""
+    },
+    "darkButtonHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkButtonHoverBg": {
+      "type": "string",
+      "default": ""
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": ""
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderWidth": {
+      "type": "object",
+      "default": {
+        "top": null,
+        "right": null,
+        "bottom": null,
+        "left": null
+      }
+    },
+    "borderRadius": {
+      "type": "number"
+    },
+    "buttonBorderRadius": {
+      "type": "number"
+    },
+    "background": {
+      "type": "string",
+      "default": ""
+    },
+    "darkBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "desktopPadding": {
+      "type": "object",
+      "default": {
+        "top": "30px",
+        "right": "30px",
+        "bottom": "30px",
+        "left": "30px"
+      }
+    },
+    "tabletPadding": {
+      "type": "object",
+      "default": {
+        "top": "25px",
+        "right": "25px",
+        "bottom": "25px",
+        "left": "25px"
+      }
+    },
+    "mobilePadding": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    }
+  }
+}

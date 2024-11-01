@@ -1,0 +1,770 @@
+# Translation of Plugins - Super Progressive Web Apps - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Super Progressive Web Apps - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-23 14:47:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Super Progressive Web Apps - Stable (latest release)\n"
+
+#: admin/admin-ui-render-settings.php:1028 functions/common.php:373
+msgid "Help & Support"
+msgstr "Помощь и поддержка"
+
+#: admin/admin-ui-render-settings.php:1048
+#: admin/admin-ui-render-settings.php:1060
+msgid "Go PRO"
+msgstr "Перейти на Pro"
+
+#: admin/admin-ui-render-settings.php:1071
+msgid " 1) Documentation"
+msgstr " 1) Документация"
+
+#: admin/admin-ui-render-settings.php:1072
+msgid "Docs link"
+msgstr "Ссылка на документы"
+
+#: admin/admin-ui-render-settings.php:1078
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: admin/admin-ui-render-settings.php:1081
+msgid "Bug Report"
+msgstr "Сообщение об ошибке"
+
+#: admin/admin-ui-render-upgrade.php:119
+msgid "Innovation"
+msgstr "Инновации"
+
+#: admin/admin-ui-render-upgrade.php:126
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/admin-ui-render-upgrade.php:147 admin/admin-ui-render-upgrade.php:148
+#: admin/admin-ui-render-upgrade.php:161 admin/admin-ui-render-upgrade.php:162
+#: admin/admin-ui-render-upgrade.php:176 admin/admin-ui-render-upgrade.php:177
+#: admin/admin-ui-render-upgrade.php:190 admin/admin-ui-render-upgrade.php:191
+#: admin/admin-ui-render-upgrade.php:204 admin/admin-ui-render-upgrade.php:205
+#: admin/admin-ui-render-upgrade.php:218 admin/admin-ui-render-upgrade.php:219
+msgid "$"
+msgstr "$"
+
+#: admin/admin-ui-render-upgrade.php:147 admin/admin-ui-render-upgrade.php:148
+msgid "99"
+msgstr "99"
+
+#: admin/admin-ui-render-upgrade.php:149
+msgid "(Save $59)"
+msgstr "(Распродажа $59)"
+
+#: admin/admin-ui-render-upgrade.php:154 admin/admin-ui-render-upgrade.php:182
+#: admin/admin-ui-render-upgrade.php:196 admin/admin-ui-render-upgrade.php:210
+#: admin/admin-ui-render-upgrade.php:223
+msgid "Pro Features"
+msgstr "Pro функции"
+
+#: admin/admin-ui-render-upgrade.php:155 admin/admin-ui-render-upgrade.php:169
+#: admin/admin-ui-render-upgrade.php:184 admin/admin-ui-render-upgrade.php:198
+#: admin/admin-ui-render-upgrade.php:212 admin/admin-ui-render-upgrade.php:225
+msgid "Buy Now"
+msgstr "Купить сейчас"
+
+#: admin/admin-ui-render-upgrade.php:161 admin/admin-ui-render-upgrade.php:162
+msgid "129"
+msgstr "129"
+
+#: admin/admin-ui-render-upgrade.php:163
+msgid "(Save $79)"
+msgstr "(Распродажа $79)"
+
+#: admin/admin-ui-render-upgrade.php:176 admin/admin-ui-render-upgrade.php:177
+msgid "199"
+msgstr "199"
+
+#: admin/admin-ui-render-upgrade.php:190 admin/admin-ui-render-upgrade.php:191
+msgid "249"
+msgstr "249"
+
+#: admin/admin-ui-render-upgrade.php:204 admin/admin-ui-render-upgrade.php:205
+msgid "499"
+msgstr "499"
+
+#: admin/admin-ui-render-upgrade.php:218 admin/admin-ui-render-upgrade.php:219
+msgid "999"
+msgstr "999"
+
+#: admin/admin-ui-render-settings.php:1027 functions/common.php:372
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: admin/admin-ui-render-settings.php:626
+msgid "LTR"
+msgstr "LTR"
+
+#: admin/admin-ui-render-settings.php:629
+msgid "RTL"
+msgstr "RTL"
+
+#: admin/admin-ui-setup.php:267
+msgid "Text Direction"
+msgstr "Направление текста"
+
+#: addons/pull-to-refresh.php:130
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: addons/pull-to-refresh.php:139
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: addons/pull-to-refresh.php:296 admin/admin-ui-render-addons.php:49
+#: admin/admin-ui-setup.php:51
+msgid "Pull To Refresh"
+msgstr "Потяните для обновления"
+
+#: admin/deactivate-feedback.php:3
+msgid "It is only temporary"
+msgstr "Это временно"
+
+#: admin/deactivate-feedback.php:5
+msgid "I miss a feature"
+msgstr "Мне не хватает функциональности"
+
+#: admin/deactivate-feedback.php:7
+msgid "Technical Issue"
+msgstr "Технический вопрос"
+
+#: admin/deactivate-feedback.php:9
+msgid "I switched to another plugin"
+msgstr "Я выбрал другой плагин"
+
+#: admin/deactivate-feedback.php:11
+msgid "Other reason"
+msgstr "Другая причина"
+
+#: admin/deactivate-feedback.php:12
+msgid "Please specify, if possible"
+msgstr "Пожалуйста, укажите, если возможно"
+
+#: admin/deactivate-feedback.php:21
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Если у вас есть минутка, сообщите нам, почему вы деактивируете:"
+
+#: admin/deactivate-feedback.php:33
+msgid "Submit & Deactivate"
+msgstr "Отправить и деактивировать"
+
+#: admin/deactivate-feedback.php:35
+msgid "Only Deactivate"
+msgstr "Только деактивировать"
+
+#: admin/deactivate-feedback.php:36
+msgid "Don't deactivate"
+msgstr "Не деактивировать"
+
+#: admin/admin-ui-render-settings.php:942
+msgid "Reset"
+msgstr "Сброс"
+
+#: admin/admin-ui-setup.php:429
+msgid "Reset Settings"
+msgstr "Сбросить настройки"
+
+#: admin/admin-ui-setup.php:411
+msgid "Exclude Add to homescreen banner"
+msgstr "Исключить Добавление баннера на домашний экран"
+
+#: admin/admin-ui-render-settings.php:909
+msgid "Place the list of URLs on which add to homescreen will be hidden"
+msgstr "Поместите список URL-адресов, по которым добавление на главный экран будет скрыто"
+
+#: admin/admin-ui-render-addons.php:150
+msgid "PreLoader"
+msgstr "Предзагрузчик"
+
+#: admin/admin-ui-render-addons.php:151
+msgid "Set the Pre-Loading Feature and provide your user an eye catchy loading functionality to the site."
+msgstr "Установите функцию предварительной загрузки и предоставьте вашему пользователю привлекательную функцию загрузки на сайт."
+
+#: addons/apple-touch-icons.php:233
+msgid "Black translucent"
+msgstr "Черный полупрозрачный"
+
+#: addons/caching-strategies.php:351
+msgid "Custom Post"
+msgstr "Пользовательская запись"
+
+#: addons/apple-touch-icons.php:227
+msgid "Default"
+msgstr "По умолчанию"
+
+#: addons/caching-strategies.php:360
+msgid "Enter Post Count"
+msgstr "Введите количество записей"
+
+#: addons/caching-strategies.php:376
+msgid "Enter Urls To Be Cached"
+msgstr "Введите URL-адреса для кеширования"
+
+#: addons/caching-strategies.php:373
+msgid "Manual"
+msgstr "Ручной"
+
+#: addons/apple-touch-icons.php:153
+msgid "Mobile App Status Bar Style"
+msgstr "Стиль строки состояния мобильного приложения"
+
+#: addons/caching-strategies.php:379
+msgid "Note: Seperate the URLs using Comma(,)"
+msgstr "Примечание: Разделите URL-адреса с помощью запятой(,)"
+
+#: addons/caching-strategies.php:345
+msgid "Page"
+msgstr "Страница"
+
+#: addons/caching-strategies.php:380
+msgid "Place the list of URLs which you want to pre cache by service worker"
+msgstr "Поместите список URL, которые вы хотите предварительно кэшировать с помощью Service Worker"
+
+#: addons/caching-strategies.php:339
+msgid "Post"
+msgstr "Запись"
+
+#: addons/caching-strategies.php:264
+msgid "Pre Caching"
+msgstr "Предварительное кэширование"
+
+#: addons/caching-strategies.php:331
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: addons/apple-touch-icons.php:230
+msgid "Black"
+msgstr "Черная"
+
+#: admin/admin-ui-setup.php:395
+msgid "Re-Install Service Worker"
+msgstr "Переустановить Service Worker"
+
+#: admin/admin-ui-setup.php:387
+msgid "Cache External Origin URLs"
+msgstr "Кэшировать URL-адреса внешних источников"
+
+#: admin/admin-ui-render-settings.php:965
+msgid "Update the version number. It will automatically re-install the service worker for all the users"
+msgstr "Обновите номер версии. Это автоматически переустановит Service Worker для всех пользователей"
+
+#: functions/common.php:452
+msgid "No thanks"
+msgstr "Нет, спасибо"
+
+#: addons/apple-touch-icons.php:332
+msgid "Settings Saved."
+msgstr "Настройки сохранены."
+
+#: addons/apple-touch-icons.php:137
+msgid "Centralize Image with Background Color"
+msgstr "Центрировать изображения с помощью цвета фона"
+
+#: admin/admin-ui-setup.php:403
+msgid "Exclude URLs from Cache list"
+msgstr "Исключить URL-адреса из списка кэша"
+
+#: admin/admin-ui-render-settings.php:891
+#: admin/admin-ui-render-settings.php:908
+msgid "Note: Seperate the URLs using a Comma(,)"
+msgstr "Примечание: Разделяйте URL-адреса запятыми (,)"
+
+#: admin/admin-ui-render-settings.php:892
+msgid "Place the list of URLs which you do not want to cache by service worker"
+msgstr "Разместите список URL-адресов, которые вы не хотите кэшировать Service Worker"
+
+#: admin/admin-ui-render-addons.php:137
+msgid "Data Analytics"
+msgstr "Аналитика данных"
+
+#: admin/admin-ui-render-addons.php:138
+msgid "Data analytics allows you to see how many customers interact with your website using Super Progressive Web App."
+msgstr "Аналитика данных позволяет увидеть, сколько клиентов взаимодействуют с вашим веб-сайтом с помощью Super Progressive Web App."
+
+#: addons/caching-strategies.php:441 admin/admin-ui-render-addons.php:86
+#: admin/admin-ui-setup.php:56
+msgid "Caching Strategies"
+msgstr "Стратегии кеширования"
+
+#: addons/apple-touch-icons.php:344 addons/apple-touch-icons.php:345
+#: addons/caching-strategies.php:441 addons/utm-tracking.php:375
+msgid "Docs"
+msgstr "Документация"
+
+#: admin/admin-ui-render-addons.php:578 admin/admin-ui-render-settings.php:358
+#: admin/admin-ui-render-settings.php:1033
+msgid "Upgrade to PRO"
+msgstr "Обновить до PRO"
+
+#: admin/admin-ui-setup.php:46
+msgid "Apple icons"
+msgstr "Значки Apple"
+
+#: admin/admin-ui-render-addons.php:124
+msgid "APP Shortcuts"
+msgstr "Ярлыки приложения"
+
+#: admin/admin-ui-render-addons.php:125
+msgid "APP shortcuts give quick access to a handful of common actions that users need frequently."
+msgstr "Ярлыки приложений обеспечивают быстрый доступ к ряду общих действий, которые часто требуются пользователям."
+
+#: admin/admin-ui-render-addons.php:74
+msgid "Apple Touch Icons & Splash Screen"
+msgstr "Значки и заставка Apple Touch"
+
+#: addons/caching-strategies.php:256
+msgid "Caching Strategies Type"
+msgstr "Тип стратегии кэширования"
+
+#: addons/caching-strategies.php:292
+msgid "Caching strategies will help your users to get connected and display content, perform function, in bad network conditions and even when the user is completely offline."
+msgstr "Стратегии кэширования помогут вашим пользователям подключиться и отображать содержимое, выполнять функции, в плохих сетевых условиях и даже когда пользователь полностью отключен от сети."
+
+#: addons/apple-touch-icons.php:190
+msgid "Currently selected splash screen"
+msgstr "Выбранная экран-заставка"
+
+#: admin/admin-ui-render-addons.php:80 admin/admin-ui-render-addons.php:156
+msgid "More Details & Customize Settings &rarr;"
+msgstr "Больше деталей и настройка параметров &rarr;"
+
+#: addons/apple-touch-icons.php:181
+msgid "Must select PNG images only"
+msgstr "Необходимо выбрать только изображения PNG"
+
+#: addons/apple-touch-icons.php:167
+msgid "Select png icon and background colour to show in splash screen, we automatically create images for all multiple other screen sizes"
+msgstr "Выберите значок png и цвет фона для отображения на заставке, мы автоматически создадим изображения для всех других размеров экрана"
+
+#: admin/admin-ui-render-addons.php:87
+msgid "To serve content from the cache and make your app available offline you need to intercept network requests and respond with files stored in the cache. "
+msgstr "Чтобы обслуживать контент из кеша и сделать ваше приложение доступным в автономном режиме, вам необходимо перехватывать сетевые запросы и отвечать файлами, хранящимися в кеше. "
+
+#: addons/apple-touch-icons.php:128
+msgid "Splash Screen Image"
+msgstr "Изображение заставки"
+
+#: addons/apple-touch-icons.php:344 addons/apple-touch-icons.php:345
+msgid "Apple touch icons & Splash Screen"
+msgstr "Сенсорные значки и заставка Apple"
+
+#: admin/admin-ui-setup.php:355
+msgid "Yandex support"
+msgstr "Служба поддержки Яндекса"
+
+#: admin/admin-ui-render-settings.php:784
+msgid "Specify the page to load when the application is launched via Shortcut."
+msgstr "Укажите страницу, которая будет загружаться при запуске приложения через ярлык."
+
+#: admin/admin-ui-render-settings.php:777
+msgid "Select Page"
+msgstr "Выберите страницу"
+
+#: admin/admin-ui-setup.php:346
+msgid "App shortcuts link"
+msgstr "Ссылка на ярлыки приложения"
+
+#: admin/admin-ui-setup.php:337
+msgid "Disable \"Add to home screen\""
+msgstr "Отключить \"Добавить на главный экран\""
+
+#: admin/admin-ui-render-settings.php:753
+msgid "Remove default banner"
+msgstr "Удалить баннер по умолчанию"
+
+#: admin/admin-ui-render-addons.php:98
+msgid "Call To Action"
+msgstr "Призыв к действию"
+
+#: admin/admin-ui-render-settings.php:1030 admin/admin-ui-setup.php:89
+#: functions/common.php:377 functions/common.php:382
+msgid "License"
+msgstr "Лицензия"
+
+#: admin/admin-ui-render-upgrade.php:50
+msgid "Premium Features"
+msgstr "Премиум-функции"
+
+#: admin/admin-ui-render-upgrade.php:132 admin/admin-ui-setup.php:60
+#: admin/basic-setup.php:380
+msgid "Upgrade to Pro"
+msgstr "Обновить до Pro"
+
+#: admin/admin-ui-render-upgrade.php:76
+msgid "50+ Features"
+msgstr "Более 50 функций"
+
+#. Author URI of the plugin
+#: superpwa.php
+msgid "https://profiles.wordpress.org/superpwa/"
+msgstr "https://profiles.wordpress.org/superpwa/"
+
+#: admin/admin-ui-render-upgrade.php:96
+msgid "Advanced Tech Support"
+msgstr "Расширенная техническая поддержка"
+
+#: admin/admin-ui-render-upgrade.php:43
+msgid "Upgrade to SuperPWA Pro"
+msgstr "Обновление до SuperPWA Pro"
+
+#: admin/admin-ui-render-addons.php:111 admin/admin-ui-render-upgrade.php:104
+msgid "Android APK APP Generator"
+msgstr "Генератор приложений APK для Android"
+
+#: admin/admin-ui-render-addons.php:112
+msgid "Easily generate APK APP of your current PWA website."
+msgstr "Легко создаnm приложение APK для вашего текущего веб-сайта PWA."
+
+#: admin/admin-ui-render-addons.php:99 admin/admin-ui-render-upgrade.php:91
+msgid "Easily gives notification banner your users to Add to Homescreen on website."
+msgstr "Легко предоставляет пользователям баннер уведомлений для добавления на домашний экран на веб-сайте."
+
+#: admin/admin-ui-render-upgrade.php:84
+msgid "Everything in Free, and:"
+msgstr "Все бесплатно, и:"
+
+#: admin/admin-ui-render-upgrade.php:45
+msgid "Purchase now"
+msgstr "Купить сейчас"
+
+#: admin/admin-ui-render-upgrade.php:89
+msgid "Call to Action feature"
+msgstr "Функция Призыв к действию"
+
+#: admin/admin-ui-render-upgrade.php:64
+msgid "Compare Pro vs. Free Version"
+msgstr "Сравните Pro с бесплатной версией"
+
+#: admin/admin-ui-render-upgrade.php:72
+msgid "Continious Development"
+msgstr "Непрерывное развитие"
+
+#: admin/admin-ui-render-upgrade.php:54
+msgid "Continuous Innovation"
+msgstr "Непрерывные инновации"
+
+#: admin/admin-ui-render-upgrade.php:59
+msgid "Get private ticketing help from our full-time technical staff & developers who helps you with the technical issues."
+msgstr "Получите частную помощь по тикетам от нашего штатного технического персонала и разработчиков, которые помогут вам в решении технических вопросов."
+
+#: admin/admin-ui-render-upgrade.php:98
+msgid "High skilled team will go above & beyond to help you with issues."
+msgstr "Высококвалифицированные специалисты помогут вам в решении проблем."
+
+#: admin/admin-ui-render-upgrade.php:65
+msgid "See what you'll get with the professional version"
+msgstr "Посмотрите, что вы получите в профессиональной версии"
+
+#: admin/admin-ui-render-upgrade.php:44
+msgid "Take your PWA to the next level with SuperPWA PRO version."
+msgstr "Поднимите свой PWA на новый уровень с помощью версии SuperPWA PRO."
+
+#: admin/admin-ui-render-upgrade.php:51
+msgid "The premium features of SuperPWA enhances your app and takes it to a next level to help you reach more engagement and personalization with your user."
+msgstr "Премиум-функции SuperPWA улучшают ваше приложение и выводят его на новый уровень, чтобы помочь вам достичь большего вовлечения и персонализации с вашим пользователем."
+
+#: admin/admin-ui-render-upgrade.php:55
+msgid "We are planning to continiously build premium features and release them. We have a roadmap and we listen to our customers to turn their feedback into reality."
+msgstr "Мы планируем постоянно создавать и выпускать премиум-функции. У нас есть дорожная карта, и мы прислушиваемся к нашим клиентам, чтобы воплотить их отзывы в реальность."
+
+#: admin/admin-ui-render-upgrade.php:73
+msgid "We take bug reports and feature requests seriously. We’re continiously developing &amp; improve this product for last 2 years with passion and love."
+msgstr "Мы серьезно относимся к сообщениям об ошибках и запросам о возможностях. Мы непрерывно развиваем и улучшаем этот продукт в течение последних 2 лет со страстью и любовью."
+
+#: admin/admin-ui-render-upgrade.php:77
+msgid "We're constantly expanding the plugin and make it more useful. We have wide variety of features which will fit any use-case."
+msgstr "Мы постоянно расширяем плагин и делаем его более полезным. У нас есть широкий спектр функций, которые подойдут для любого случая использования."
+
+#: admin/admin-ui-render-upgrade.php:58 admin/admin-ui-render-upgrade.php:152
+#: admin/admin-ui-render-upgrade.php:166 admin/admin-ui-render-upgrade.php:181
+#: admin/admin-ui-render-upgrade.php:195 admin/admin-ui-render-upgrade.php:222
+msgid "Tech Support"
+msgstr "Техническая поддержка"
+
+#: admin/basic-setup.php:123
+msgid "Thank you for installing <strong>Super Progressive Web Apps!</strong> "
+msgstr "Спасибо за установку <strong>Super Progressive Web Apps!</strong> "
+
+#: admin/admin-ui-render-settings.php:586
+msgid "Full Screen"
+msgstr "На весь экран"
+
+#: admin/admin-ui-render-settings.php:595
+msgid "Browser"
+msgstr "Браузер"
+
+#: admin/admin-ui-setup.php:258
+msgid "Display"
+msgstr "Отображать"
+
+#: admin/admin-ui-render-settings.php:592
+msgid "Minimal UI"
+msgstr "Минимальный пользовательский интерфейс"
+
+#: admin/basic-setup.php:118
+msgid "Your app is ready with the default settings. "
+msgstr "Ваше приложение готово с настройками по умолчанию. "
+
+#: admin/admin-ui-render-settings.php:589
+#: admin/admin-ui-render-settings.php:602
+msgid "Standalone"
+msgstr "Автономность"
+
+#: admin/admin-ui-render-settings.php:110
+#: admin/admin-ui-render-settings.php:128
+#: admin/admin-ui-render-settings.php:152
+#: admin/admin-ui-render-settings.php:177
+msgid "Choose Icon"
+msgstr "Выберите значок"
+
+#. Plugin URI of the plugin
+#: superpwa.php
+msgid "https://superpwa.com/?utm_source=superpwa-plugin&utm_medium=plugin-uri"
+msgstr "https://superpwa.com/?utm_source=superpwa-plugin&utm_medium=plugin-uri"
+
+#: admin/admin-ui-render-addons.php:92
+msgid "More Details &rarr;"
+msgstr "Больше деталей &rarr;"
+
+#: admin/admin-ui-render-addons.php:55 admin/admin-ui-render-addons.php:68
+#: admin/admin-ui-render-addons.php:105 admin/admin-ui-render-addons.php:118
+#: admin/admin-ui-render-addons.php:131 admin/admin-ui-render-addons.php:144
+#: admin/admin-ui-render-addons.php:169 admin/admin-ui-render-addons.php:182
+#: admin/admin-ui-render-addons.php:195 admin/admin-ui-render-addons.php:208
+#: admin/admin-ui-render-addons.php:221 admin/admin-ui-render-addons.php:234
+#: admin/admin-ui-render-addons.php:247 admin/admin-ui-render-addons.php:259
+msgid "Customize Settings &rarr;"
+msgstr "Настройка параметров &rarr;"
+
+#: admin/admin-ui-render-addons.php:75
+msgid "Set the Application Icon and Splash Screen Icon as Apple Touch Icons for compatibility with iOS devices."
+msgstr "Установите значок приложения и значок заставки как Apple Touch значки для совместимости с iOS устройствами."
+
+#: admin/admin-ui-render-addons.php:582
+msgid "Install"
+msgstr "Установить"
+
+#: admin/admin-ui-render-addons.php:404 admin/admin-ui-render-addons.php:409
+#: admin/admin-ui-render-addons.php:570
+msgid "Activate"
+msgstr "Активировать"
+
+#: functions/common.php:450
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: admin/admin-ui-render-addons.php:436
+msgid "More Details"
+msgstr "Детали"
+
+#: admin/admin-ui-render-addons.php:412 admin/admin-ui-render-addons.php:574
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: addons/caching-strategies.php:429 addons/pull-to-refresh.php:285
+#: addons/utm-tracking.php:363 admin/admin-ui-render-settings.php:989
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: functions/common.php:438
+msgid "SuperPWA Newsletter"
+msgstr "Рассылка новостей SuperPWA"
+
+#: admin/admin-ui-render-addons.php:335
+msgid "Add-Ons extend the functionality of SuperPWA."
+msgstr "Дополнения расширяют функциональность SuperPWA."
+
+#: admin/admin-ui-render-addons.php:321
+msgid "Add-On deactivated"
+msgstr "Дополнение деактивировано"
+
+#: addons/utm-tracking.php:181
+msgid "Campaign Content"
+msgstr "Содержимое кампании"
+
+#: addons/utm-tracking.php:172
+msgid "Campaign Term"
+msgstr "Срок действия кампании"
+
+#: addons/utm-tracking.php:163
+msgid "Campaign Name"
+msgstr "Название компании"
+
+#: addons/utm-tracking.php:145
+msgid "Campaign Source"
+msgstr "Источник компании"
+
+#: addons/utm-tracking.php:136
+msgid "Current Start URL"
+msgstr "Текущий стартовый URL"
+
+#: functions/common.php:454
+msgid "we'll share our <code>root</code> password before we share your email with anyone else."
+msgstr "мы скорее поделимся с посторонними своим <code>root</code> паролем, чем вашим email."
+
+#: addons/utm-tracking.php:154
+msgid "Campaign Medium"
+msgstr "Медиум кампании (Campaign Medium)"
+
+#: admin/admin-ui-setup.php:37
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: functions/common.php:448
+msgid "Enter your email"
+msgstr "Введите ваш email"
+
+#: functions/common.php:441
+msgid "Learn more about Progressive Web Apps and get latest updates about SuperPWA"
+msgstr "Узнайте больше о прогрессивных веб-приложениях (PWA) и получите последние обновления о SuperPWA"
+
+#: addons/utm-tracking.php:375 admin/admin-ui-render-addons.php:253
+#: admin/admin-ui-setup.php:41
+msgid "UTM Tracking"
+msgstr "UTM Tracking"
+
+#: admin/admin-ui-render-addons.php:254
+msgid "Track visits from your app by adding UTM tracking parameters to the Start Page URL."
+msgstr "Отслеживайте посещения вашего приложения, добавляя параметры UTM tracking в URL-адрес начальной страницы."
+
+#: admin/admin-ui-setup.php:145
+msgid "Description"
+msgstr "Описание"
+
+#: admin/basic-setup.php:399
+msgid "Demo"
+msgstr "Демонстрация"
+
+#: admin/admin-ui-render-settings.php:89
+msgid "A brief description of what your app is about."
+msgstr "Краткое описание того, о чем ваше приложение."
+
+#: admin/admin-ui-render-settings.php:421
+msgid "Do not check this if your start page is the homepage, the blog index, or the archives page. AMP for WordPress does not create AMP versions for these pages."
+msgstr "Не используйте это, если ваша стартовая страница представляет собой домашнюю страницу, ленту блога и страницу архивов. AMP для WordPress не создает AMP-версии этих страниц."
+
+#: admin/admin-ui-render-settings.php:554
+msgid "Portrait"
+msgstr "Портрет"
+
+#: admin/admin-ui-setup.php:213
+msgid "Theme Color"
+msgstr "Цвет темы"
+
+#: admin/admin-ui-setup.php:249
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: admin/admin-ui-render-settings.php:551
+#: admin/admin-ui-render-settings.php:563
+msgid "Follow Device Orientation"
+msgstr "Следовать ориентации устройства"
+
+#: admin/admin-ui-render-settings.php:557
+msgid "Landscape"
+msgstr "Альбом"
+
+#: admin/admin-ui-setup.php:178
+msgid "Splash Screen Icon"
+msgstr "Значок заставки"
+
+#: admin/admin-ui-setup.php:293
+msgid "Status"
+msgstr "Статус"
+
+#: admin/admin-ui-setup.php:319
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: admin/admin-ui-render-settings.php:339
+msgid "&mdash; Homepage &mdash;"
+msgstr "&mdash; Домашняя страница &mdash;"
+
+#: addons/utm-tracking.php:225 admin/admin-ui-setup.php:222
+msgid "Start Page"
+msgstr "Стартовая страница"
+
+#: admin/admin-ui-setup.php:136
+msgid "Application Short Name"
+msgstr "Сокращенное название приложения"
+
+#: admin/admin-ui-setup.php:127
+msgid "Application Name"
+msgstr "Название приложения"
+
+#: admin/admin-ui-render-settings.php:415
+msgid "Use AMP version of the start page."
+msgstr "Использовать AMP версию стартовой страницы."
+
+#: admin/admin-ui-render-settings.php:285
+msgid "Background color of the splash screen."
+msgstr "Цвет фона экрана заставки."
+
+#: admin/admin-ui-setup.php:310
+msgid "Service Worker"
+msgstr "Service Worker"
+
+#: admin/admin-ui-render-settings.php:523
+msgid "&mdash; Default &mdash;"
+msgstr "&mdash; По умолчанию &mdash;"
+
+#: admin/admin-ui-setup.php:240
+msgid "Offline Page"
+msgstr "Страница офлайн"
+
+#: addons/apple-touch-icons.php:359 addons/caching-strategies.php:454
+#: addons/pull-to-refresh.php:313 addons/utm-tracking.php:388
+#: admin/admin-ui-render-settings.php:1046
+#: admin/admin-ui-render-settings.php:1058
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: addons/apple-touch-icons.php:145 admin/admin-ui-render-settings.php:305
+#: admin/admin-ui-setup.php:204
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: admin/admin-ui-setup.php:301
+msgid "Manifest"
+msgstr "Манифест"
+
+#. Author of the plugin
+#: superpwa.php 3rd-party/onesignal.php:232 admin/admin-ui-setup.php:27
+#: admin/basic-setup.php:131 admin/basic-setup.php:165
+msgid "SuperPWA"
+msgstr "SuperPWA"
+
+#. Plugin Name of the plugin
+#: superpwa.php admin/admin-ui-render-addons.php:333
+#: admin/admin-ui-render-settings.php:1016 admin/admin-ui-setup.php:27
+#: admin/admin-ui-setup.php:32 admin/admin-ui-setup.php:37
+#: admin/admin-ui-setup.php:41 admin/admin-ui-setup.php:46
+#: admin/admin-ui-setup.php:56 admin/admin-ui-setup.php:91
+#: admin/admin-ui-setup.php:93
+msgid "Super Progressive Web Apps"
+msgstr "Super Progressive Web Apps"
+
+#: admin/admin-ui-setup.php:154
+msgid "Application Icon"
+msgstr "Значок приложения"
+
+#. Description of the plugin
+#: superpwa.php
+msgid "Convert your WordPress website into a Progressive Web App"
+msgstr "Конвертируйте ваш сайт WordPress в прогрессивное веб-приложение (PWA)"
+
+#: admin/admin-ui-render-addons.php:420 admin/admin-ui-render-addons.php:424
+#: admin/admin-ui-render-settings.php:1025 admin/admin-ui-setup.php:32
+#: admin/basic-setup.php:372 admin/basic-setup.php:379 functions/common.php:370
+msgid "Settings"
+msgstr "Настройки"

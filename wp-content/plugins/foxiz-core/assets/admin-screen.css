@@ -1,0 +1,198 @@
+.login.rb-login-screen form {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.rb-login-screen:not(.interim-login) #login {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 340px;
+    margin-left: 0;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, .1);
+}
+
+.rb-login-outer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.login-action-confirm_admin_email #login {
+    margin-top: auto;
+}
+
+.rb-login-screen h1,
+.login.rb-login-screen h1 a {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.login.rb-login-screen form .input,
+.login.rb-login-screen form .input#wp-submit,
+.login.rb-login-screen form input[type=checkbox],
+.login.rb-login-screen input[type=text],
+.login.rb-login-screen input[type=password] {
+    margin-right: 0;
+    border: none;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: none !important;
+}
+
+.login.rb-login-screen input[type=text],
+.login.rb-login-screen input[type=password],
+.login.rb-login-screen input[type=email] {
+    padding-left: 40px;
+}
+
+.rb-login-screen label {
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 7px;
+    color: #999;
+}
+
+.rb-login-screen form .forgetmenot {
+    display: flex;
+    float: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rb-login-screen form .forgetmenot label {
+    font-size: 11px;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.rb-login-screen #login form p.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.rb-login-screen input#wp-submit {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 40px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    border: none;
+    background-color: #4285ff;
+}
+
+.rb-login-screen input#wp-submit:hover {
+    -webkit-box-shadow: 1px 5px 20px #4285ff80 !important;
+    box-shadow: 1px 5px 20px #4285ff80 !important;
+}
+
+.rb-login-screen label[for='user_login']:before,
+.rb-login-screen label[for='user_pass']:before,
+.rb-login-screen label[for='user_email']:before {
+    font-family: dashicons;
+    font-size: 24px;
+    line-height: var(--height-40);
+    position: absolute;
+    z-index: 1;
+    top: calc(100% + 10px);
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    content: '\f110';
+    /*color: #82aeff;*/
+    text-align: center;
+}
+
+.rb-login-screen label[for='user_pass']:before {
+    content: '\f160';
+}
+
+.rb-login-screen label[for='user_email']:before {
+    content: '\f465';
+}
+
+.rb-login-screen .button.wp-hide-pw .dashicons {
+    color: #4285ff;
+}
+
+.rb-login-screen #backtoblog,
+.rb-login-screen .privacy-policy-link {
+    font-size: 11px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.rb-login-screen #backtoblog a,
+.rb-login-screen .privacy-policy-link {
+    color: #999;
+}
+
+.rb-login-screen .privacy-policy-page-link {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.rb-login-screen #nav {
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.rb-login-screen #reg_passmail {
+    font-size: 13px;
+    font-style: italic;
+    color: #999;
+}
+
+.rb-login-screen.login #login_error,
+.rb-login-screen.login .message,
+.rb-login-screen.login .success {
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: none;
+}
+
+.rb-login-screen .message.register {
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-bottom: 3px dashed #eee;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+body.rtl.rb-login-screen label[for='user_login']:before,
+body.rtl.rb-login-screen label[for='user_pass']:before,
+body.rtl.rb-login-screen label[for='user_email']:before {
+    right: 0;
+    left: auto;
+}
+
+body.rtl.login.rb-login-screen input[type=text],
+body.rtl.login.rb-login-screen input[type=password],
+body.rtl.login.rb-login-screen input[type=email] {
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+@media (max-width: 1024px) {
+    body.rb-login-screen #login {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}

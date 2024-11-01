@@ -1,0 +1,44 @@
+<?php
+
+//File location: cyrillic-to-latin/cyrillic-to-latin-extensions.php
+
+// Проверка наличия файла загрузки
+defined('ABSPATH') or die('No script kiddies please!');
+
+// Функция для изменения ссылки категории
+add_filter('category_link', function ($link, $term_id) {
+    $term = get_term($term_id, 'category');
+    return ($term && !is_wp_error($term)) ? home_url("/{$term->slug}/") : $link;
+}, 10, 2);
+
+add_filter('post_link', function ($permalink, $post, $leavename) {
+    if (get_post_type($post) != 'post') {
+        return $permalink;
+    }
+
+    // Массив исключений для URL, которые не должны быть изменены
+    $exclusions = [
+        'author/', 'tag/', 'wp-content/uploads/', 
+        'wp-json/', 'feed/', 'rss/', '/search/'
+    ];
+
+    // Если одно из исключений найдено, вернем оригинальный permalink
+    foreach ($exclusions as $exclusion) {
+        if (str_contains($permalink, $exclusion)) {
+            return $permalink;
+        }
+    }
+
+    // Исключение для архивов вида /2023/04/
+    if (preg_match('/\d{4}\/\d{2}/', $permalink)) {
+        return $permalink;
+    }
+
+    $terms = get_the_terms($post->ID, 'category');
+    if (!$terms || is_wp_error($terms) || empty($terms)) {
+        return $permalink;
+    }
+
+    $term = end($terms);
+    return home_url("/{$term->slug}/{$post->post_name}/");
+}, 10, 3);

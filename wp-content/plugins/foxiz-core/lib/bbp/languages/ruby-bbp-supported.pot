@@ -1,0 +1,504 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ruby bbPress Supported\n"
+"POT-Creation-Date: 2022-10-19 09:49+0700\n"
+"PO-Revision-Date: 2017-07-16 09:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: Theme-Ruby <themeruby@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _x;__;_e;_nx:1,2;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/actions.php:120
+msgid "<strong>Error</strong>: Your topic needs a "
+msgstr ""
+
+#: includes/actions.php:162 includes/settings.php:127
+msgid "Private Content"
+msgstr ""
+
+#: includes/actions.php:214
+msgid "Frontend Status:"
+msgstr ""
+
+#: includes/actions.php:215
+msgid "Frontend Status"
+msgstr ""
+
+#: includes/helper.php:84 includes/settings.php:351
+msgid "- Default -"
+msgstr ""
+
+#: includes/helper.php:85 includes/settings.php:280
+msgid "Resolved"
+msgstr ""
+
+#: includes/helper.php:86 includes/settings.php:290
+msgid "Not Resolved"
+msgstr ""
+
+#: includes/helper.php:87 includes/settings.php:300
+msgid "Has a Solution"
+msgstr ""
+
+#: includes/settings.php:25
+msgid "Ruby bbPress Supporter"
+msgstr ""
+
+#: includes/settings.php:26
+msgid "Ruby bbPress"
+msgstr ""
+
+#: includes/settings.php:51
+msgid "Ruby bbPress Supported"
+msgstr ""
+
+#: includes/settings.php:52
+msgid "Support styles, layout and features for bbPress forum plugin."
+msgstr ""
+
+#: includes/settings.php:60
+msgid "General"
+msgstr ""
+
+#: includes/settings.php:61
+msgid "Sidebars"
+msgstr ""
+
+#: includes/settings.php:62 includes/settings.php:108
+#: templates/loop-single-forum.php:85
+msgid "Topic"
+msgstr ""
+
+#: includes/settings.php:88
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings.php:99
+msgid "Sidebar Settings"
+msgstr ""
+
+#: includes/settings.php:133
+msgid "Enable private content for topic creator and the site administrator only."
+msgstr ""
+
+#: includes/settings.php:135
+msgid "Show Lead Topics"
+msgstr ""
+
+#: includes/settings.php:141
+msgid "Alternate layout style where topics appear as lead posts."
+msgstr ""
+
+#: includes/settings.php:143
+msgid "General Search Placeholder"
+msgstr ""
+
+#: includes/settings.php:148 includes/settings.php:149
+#: templates/form-search.php:19
+msgid "Search All Forums"
+msgstr ""
+
+#: includes/settings.php:150
+msgid "Input a placeholder for the forum search form."
+msgstr ""
+
+#: includes/settings.php:153
+msgid "Topic Search Placeholder"
+msgstr ""
+
+#: includes/settings.php:158 includes/settings.php:159
+#: templates/form-topic-search.php:18
+msgid "Search for Topics"
+msgstr ""
+
+#: includes/settings.php:160
+msgid "Input a placeholder for the topic search form."
+msgstr ""
+
+#: includes/settings.php:163
+msgid "Reply Search Placeholder"
+msgstr ""
+
+#: includes/settings.php:168 includes/settings.php:169
+#: templates/form-reply-search.php:19
+msgid "Search for Replies"
+msgstr ""
+
+#: includes/settings.php:170
+msgid "Input a placeholder for the reply search form."
+msgstr ""
+
+#: includes/settings.php:173
+msgid "Ruby Avatar"
+msgstr ""
+
+#: includes/settings.php:179
+msgid "Show avatar based on the first letter of user name if Gravata not found."
+msgstr ""
+
+#: includes/settings.php:183
+msgid "Global Sidebar"
+msgstr ""
+
+#: includes/settings.php:189
+msgid "Assign a sidebar all bbpress pages."
+msgstr ""
+
+#: includes/settings.php:191
+msgid "Forum Sidebar"
+msgstr ""
+
+#: includes/settings.php:198
+msgid "Assign a sidebar for the forums page."
+msgstr ""
+
+#: includes/settings.php:200
+msgid "Topic Sidebar"
+msgstr ""
+
+#: includes/settings.php:207
+msgid "Assign a sidebar for the topic."
+msgstr ""
+
+#: includes/settings.php:209
+msgid "Page Shortcode Sidebar"
+msgstr ""
+
+#: includes/settings.php:216
+msgid "Assign a sidebar for the bbPress pages created by shortcodes."
+msgstr ""
+
+#: includes/settings.php:220
+msgid "New Topic - Toggle Heading"
+msgstr ""
+
+#: includes/settings.php:225
+msgid "Start new topic?"
+msgstr ""
+
+#: includes/settings.php:227
+msgid "Add a heading for the create new topic toggle box."
+msgstr ""
+
+#: includes/settings.php:229
+msgid "New Topic - Toggle Description"
+msgstr ""
+
+#: includes/settings.php:235
+msgid "Create your own custom text input field for the new topic."
+msgstr ""
+
+#: includes/settings.php:238
+msgid "New Topic - Toggle Button"
+msgstr ""
+
+#: includes/settings.php:243
+msgid "Add New"
+msgstr ""
+
+#: includes/settings.php:245
+msgid "Add a button label for the create new topic toggle box."
+msgstr ""
+
+#: includes/settings.php:247
+msgid "New Topic - Box Image"
+msgstr ""
+
+#: includes/settings.php:254
+msgid "Add a featured image (attachment link) for the new topic toggle box."
+msgstr ""
+
+#: includes/settings.php:257
+msgid "Custom Filed 1"
+msgstr ""
+
+#: includes/settings.php:263 includes/settings.php:272
+msgid "Create a custom text input field when creating a new topic."
+msgstr ""
+
+#: includes/settings.php:266
+msgid "Custom Filed 2"
+msgstr ""
+
+#: includes/settings.php:275
+msgid "Frontend Status - 1st Label"
+msgstr ""
+
+#: includes/settings.php:282
+msgid "Add a custom label for the 1st front-end status meta."
+msgstr ""
+
+#: includes/settings.php:285
+msgid "Frontend Status - 2nd Label"
+msgstr ""
+
+#: includes/settings.php:292
+msgid "Add a custom label for the 2nd front-end status meta."
+msgstr ""
+
+#: includes/settings.php:295
+msgid "Frontend Status - 3rd Label"
+msgstr ""
+
+#: includes/settings.php:302
+msgid "Add a custom label for the 3rd front-end status meta."
+msgstr ""
+
+#: includes/settings.php:305
+msgid "New Topic Form in Forums Page"
+msgstr ""
+
+#: includes/settings.php:312
+msgid "Enable or disable the create new topic button in the forums listing."
+msgstr ""
+
+#: includes/settings.php:318
+msgid "Forum features that can be enable and disable."
+msgstr ""
+
+#: includes/settings.php:323
+msgid "Manage the forum sidebars."
+msgstr ""
+
+#: includes/settings.php:328
+msgid "Manage the create new topic."
+msgstr ""
+
+#: includes/settings.php:335 includes/settings.php:412
+msgid "Enable"
+msgstr ""
+
+#: includes/settings.php:338 includes/settings.php:415
+msgid "- Disable -"
+msgstr ""
+
+#: includes/settings.php:355
+msgid "Disable"
+msgstr ""
+
+#: includes/settings.php:404
+msgid "Title:"
+msgstr ""
+
+#: includes/settings.php:408
+msgid "is private field?"
+msgstr ""
+
+#: templates/content-single-topic-lead.php:41
+#: templates/loop-search-forum.php:31 templates/loop-search-reply.php:50
+#: templates/loop-single-reply.php:50
+msgid "Copy Link"
+msgstr ""
+
+#: templates/content-single-topic-lead.php:41
+#: templates/loop-search-forum.php:31 templates/loop-search-reply.php:50
+#: templates/loop-single-reply.php:50
+msgid "Added to Clipboard"
+msgstr ""
+
+#: templates/form-reply-search.php:18
+msgid "Search replies:"
+msgstr ""
+
+#: templates/form-reply-search.php:22 templates/form-search.php:22
+#: templates/form-topic-search.php:21
+msgid "Search"
+msgstr ""
+
+#: templates/form-search.php:17
+msgid "Search for:"
+msgstr ""
+
+#: templates/form-topic-search.php:17
+msgid "Search topics:"
+msgstr ""
+
+#: templates/loop-search-forum.php:21
+#, php-format
+msgid "Last updated %s"
+msgstr ""
+
+#: templates/loop-search-reply.php:17 templates/loop-single-reply.php:18
+msgid "in reply to: "
+msgstr ""
+
+#: templates/loop-search-topic.php:20
+msgid "in group forum "
+msgstr ""
+
+#: templates/loop-search-topic.php:22
+msgid "in forum "
+msgstr ""
+
+#: templates/loop-single-forum.php:87 templates/loop-topics.php:16
+msgid "Topics"
+msgstr ""
+
+#: templates/loop-single-forum.php:97 templates/loop-single-topic.php:89
+msgid "Reply"
+msgstr ""
+
+#: templates/loop-single-forum.php:99 templates/loop-single-topic.php:91
+msgid "Replies"
+msgstr ""
+
+#: templates/loop-single-forum.php:106 templates/loop-single-topic.php:98
+msgid "Post"
+msgstr ""
+
+#: templates/loop-single-forum.php:108 templates/loop-single-topic.php:100
+msgid "Posts"
+msgstr ""
+
+#: templates/loop-single-topic.php:53
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: templates/loop-single-topic.php:60
+#, php-format
+msgid "in: %1$s"
+msgstr ""
+
+#: templates/loop-single-topic.php:78
+msgid "Voice"
+msgstr ""
+
+#: templates/loop-single-topic.php:80
+msgid "Voices"
+msgstr ""
+
+#: templates/loop-topics.php:17
+msgid "Last Reply"
+msgstr ""
+
+#: templates/parts.php:28
+msgid "Private content area"
+msgstr ""
+
+#: templates/parts.php:31
+msgid "Private content"
+msgstr ""
+
+#: templates/parts.php:71
+msgid "create new topic"
+msgstr ""
+
+#: templates/parts.php:105
+msgid "Closed"
+msgstr ""
+
+#: templates/parts.php:108
+msgid "Open"
+msgstr ""
+
+#: templates/parts.php:157
+msgid "hidden"
+msgstr ""
+
+#: templates/parts.php:213 templates/parts.php:298 templates/parts.php:391
+#, php-format
+msgid "View %s's profile"
+msgstr ""
+
+#: templates/parts.php:214 templates/parts.php:299 templates/parts.php:392
+#, php-format
+msgid "Visit %s's website"
+msgstr ""
+
+#: templates/user-details.php:35
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: templates/user-details.php:35
+msgid "Profile"
+msgstr ""
+
+#: templates/user-details.php:41
+#, php-format
+msgid "%s's Topics Started"
+msgstr ""
+
+#: templates/user-details.php:41
+msgid "Topics Started"
+msgstr ""
+
+#: templates/user-details.php:47
+#, php-format
+msgid "%s's Replies Created"
+msgstr ""
+
+#: templates/user-details.php:47
+msgid "Replies Created"
+msgstr ""
+
+#: templates/user-details.php:54
+#, php-format
+msgid "%s's Engagements"
+msgstr ""
+
+#: templates/user-details.php:54
+msgid "Engagements"
+msgstr ""
+
+#: templates/user-details.php:62
+#, php-format
+msgid "%s's Favorites"
+msgstr ""
+
+#: templates/user-details.php:62
+msgid "Favorites"
+msgstr ""
+
+#: templates/user-details.php:72
+#, php-format
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: templates/user-details.php:72
+msgid "Subscriptions"
+msgstr ""
+
+#: templates/user-details.php:79
+#, php-format
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: templates/user-details.php:79
+msgid "Edit"
+msgstr ""
+
+#: templates/user-engagements.php:17
+msgid "Topics Engaged In"
+msgstr ""
+
+#: templates/user-favorites.php:17
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: templates/user-replies-created.php:17
+msgid "Forum Replies Created"
+msgstr ""
+
+#: templates/user-subscriptions.php:21
+msgid "Subscribed Forums"
+msgstr ""
+
+#: templates/user-subscriptions.php:39
+msgid "Subscribed Topics"
+msgstr ""
+
+#: templates/user-topics-created.php:17
+msgid "Forum Topics Started"
+msgstr ""
