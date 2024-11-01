@@ -3,6 +3,13 @@
 /wp-includes/
 /wp-*.php
 /xmlrpc.php
+bfg-1.14.0.jar
+license.txt
+nginx.conf
+readme.html
+ssl/
+sync.sh
+wordpress/
 
 # Конфигурационные файлы WordPress
 wp-config.php
@@ -22,6 +29,8 @@ wp-content/cache/
 wp-content/rocket-config/
 wp-content/wp-rocket-config/
 wp-content/uploads/autoptimize/
+wp-content/object-cache.php
+
 
 # Env files
 .env
