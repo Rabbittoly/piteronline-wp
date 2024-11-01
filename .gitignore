@@ -32,6 +32,8 @@ node_modules/
 vendor/
 composer-setup.php
 docker-compose.yml
+callback.php
+
 
 # Temporary files
 *.log
